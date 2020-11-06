@@ -1,11 +1,11 @@
-<div class="small-6 medium-3 large-3 large-offset-1 columns">
+<!--<div class="small-6 medium-3 large-3 large-offset-1 columns">
   <a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-    1<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" align=center alt="{{ site.title }} – {{ site.slogan }}">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" align=center alt="{{ site.title }} – {{ site.slogan }}">
   </a>
-</div>
+</div> -->
 <div id="up-to-top" class="row">
   <div class="small-12 columns" style="text-align: right;">
-    2<a class="iconfont" href="#top-of-page">&#xf108;</a>
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
   </div><!-- /.small-12.columns -->
 </div><!-- /.row -->
 
@@ -15,10 +15,10 @@
     <div class="row">
       <div class="medium-6 large-5 columns">
         <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-3
+
         <p class="shadow-black">
           {{ site.description }}
-4          <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+          <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
         </p>
       </div><!-- /.large-6.columns -->
 
@@ -26,7 +26,7 @@
       <div class="small-6 medium-3 large-3 large-offset-1 columns">
         {% for service_item in site.data.services %}
           {% if forloop.first == true %}
-5            <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
+            <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
           {% endif %}
         {% endfor %}
 
@@ -34,7 +34,7 @@
           {% for service_item in site.data.services %}
             {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
               <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-6                <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+                <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
               </li>
           {% endfor %}
           </ul>
@@ -44,7 +44,7 @@
       <div class="small-6 medium-3 large-3 columns">
         {% for network_item in site.data.network %}
           {% if forloop.first == true %}
-7            <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
+            <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
           {% endif %}
         {% endfor %}
 
@@ -52,7 +52,7 @@
         {% for network_item in site.data.network %}
           {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
             <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
-8              <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
+              <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
             </li>
         {% endfor %}
         </ul>
@@ -71,7 +71,7 @@
       <section id="subfooter-right" class="small-12 medium-6 columns">
         <ul class="inline-list social-icons">
         {% for social_item in site.data.socialmedia %}
-9          <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+          <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
         {% endfor %}
         </ul>
       </section>
