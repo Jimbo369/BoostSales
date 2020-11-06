@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "About"
 subheadline: "What are we all about?"
 teaser: "Collectively, we have amassed a mountain of experience and are now applying it to as many SME operations as we can...Why? Simply to help the small organisation to become larger fish in the ocean"
