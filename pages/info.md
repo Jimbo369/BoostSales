@@ -27,7 +27,7 @@ But how do you know we will do what we say we’ll do?  It is a common question 
   <li>Provide Total Peace of Mind</li>
 </h3></ul><br>
 
-<h3>Find out more about our unique <a href= "{{ site.url }}/Consulting/pages/guarantee/" > Guarantee </a>
+<h3>Find out more about our unique <a href= "{{ site.url }}/guarantee/" > Guarantee </a>
 </h3>
 
 

@@ -11,12 +11,12 @@
   side: left
   dropdown:
   - title: "Strategy Development"
-    url: "/pages/Strategy"
+    url: "/Strategy/"
   - title: "Interim Management"
-    url: "/pages/Interim/"
+    url: "/Interim/"
 
 - title: "Guarantee"
-  url: "/pages/guarantee/"
+  url: "/guarantee/"
   side: left
 
 

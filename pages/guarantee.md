@@ -1,6 +1,7 @@
 ---
 layout: page-fullwidth
 show_meta: false
+permalink: "/guarantee/"
 title: "Money Back Guarantee"
 subheadline: ""
 teaser: ""
