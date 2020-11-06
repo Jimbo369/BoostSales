@@ -12,7 +12,7 @@ teaser: ""
 header:
     title: CAST IRON GUARANTEE - Money Back Offer!
     background-color: "#EFC94C;"
-    pattern: pattern_concrete.jpg
+#    pattern: pattern_concrete.jpg
     image_fullwidth: gallery-example-7.jpg
     caption:
     caption_url:
