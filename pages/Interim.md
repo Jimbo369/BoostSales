@@ -6,13 +6,13 @@ subheadline: ""
 teaser: ""
 #categories:
 #    - design
-tags:
-    - design
-    - background color
-    - header
+#tags:
+#    - design
+#    - background color
+#    - header
 header:
     title: Interim Management
-    background-color: "#EFC94C;"
+#    background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
     image_fullwidth: header_unsplash_1.jpg
     caption:

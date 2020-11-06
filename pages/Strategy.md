@@ -4,8 +4,8 @@ show_meta: false
 title: ""
 subheadline: ""
 teaser: ""
-categories:
-    - design
+#categories:
+#    - design
 #tags:
 #    - design
 #    - background color
