@@ -38,8 +38,7 @@ header:
 <br><br>
 <h2>Contact us TODAY for a confidential discussion and find out how we can help.</h2>
 
-<!-- ### All Header-Styles
+<!-- ### All Header-Styles -->
 {: .t60 }
 
 {% include list-posts tag='header' %}
--->

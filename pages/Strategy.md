@@ -34,5 +34,4 @@ You may be a seasoned serial entrepreneur.  Created start-ups and sold the on re
 <!-- ### All Header-Styles -->
 {: .t60 }
 
-<!--{% include list-posts tag='header' %}
--->
+{% include list-posts tag='header' %}

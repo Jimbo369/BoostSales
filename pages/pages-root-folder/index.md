@@ -19,7 +19,7 @@ widget1:
   text: 'Learn how marketing actually works and use the simple rules to refine your sales and marketing    capability to increase leads and convert them to more sales - <em>Guaranteed!!</em> '
 widget2:
   title: "Top Level Coaching"
-  url: '/pages/Interim/'
+  url: '/Interim/'
   image: unsplash_eagle.jpg
   text: 'We have well qualified and very experienced business coaches available to work alongside you to guide and help in the development of your business.'
 #widget3:
