@@ -4,7 +4,7 @@ show_meta: false
 title: ""
 subheadline: ""
 teaser: ""
-permalink: "/interim/"
+permalink: "/Interim/"
 #categories:
 #    - design
 #tags:
