@@ -3,21 +3,20 @@
   side: left
 
 - title: Sales Improvement
-  url: "/getting-started/"
+  url: "/improvements/"
   side: left
 
 - title: "Consultancy Services"
-  url: "/design/"
+  url: "/"
   side: left
   dropdown:
   - title: "Strategy Development"
-    url: "/design/grid/"
+    url: "/pages/Strategy"
   - title: "Interim Management"
-    url: "/design/typography/typography/"
-
+    url: "/pages/Interim/"
 
 - title: "Guarantee"
-  url: "/headers/"
+  url: "/pages/guarantee/"
   side: left
 
 
@@ -26,12 +25,16 @@
   side: left
 
 
-- title: Blog
-  url: "/blog/"
+- title: About
+  url: "/info/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+
+#- title: Blog
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
 
 - title: "Search"
   url: "/search/"

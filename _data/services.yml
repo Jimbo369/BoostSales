@@ -4,9 +4,9 @@
   url: "/contact/"
   title: "Contact"
 
-- name: "RSS"
-  url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+- name: "About"
+  url: "/info/"
+  title: "About Us"
 
 - name: "Atom"
   url: "/atom.xml"

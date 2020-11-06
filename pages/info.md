@@ -1,53 +1,48 @@
 ---
 layout: page
 title: "About"
-subheadline: "Why another Jekyll Theme?"
-teaser: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
+subheadline: "What are we all about?"
+teaser: "Collectively, we have amassed a mountain of experience and are now applying it to as many SME operations as we can...Why? Simply to help the small organisation to become larger fish in the ocean"
 permalink: "/info/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-...and learn at the same time.
 
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
+## What's in a name? What does Superne Mean?
+<h3>
+'Superne' - like many words in the English language - is a Latin word that means 'to get  higher or better'.  Basically, to <em><b> improve </b></em>.  
+<br><br>
+It is our intent to take clients from where they are now up to the their next level - and indeed on from there!  No matter where you are now, there is always an opportunity to make some improvement.  Our team are experienced and understanding!Speak to us
+and find out how we can help.
+</h3>
 
+## Service, Reliability and Commitment
+<h3>Whatever your industry, whatever your business, there will always be areas that can be improved simply because the world in which you operate is continually changing. Our cognizant business consulting services are designed to guide and support you through these changes.
+<br>
+But how do you know we will do what we say we’ll do?  It is a common question and our answer is to do what most consultants will not do....
+<br></h3>
+<ul><h3>
+  <li>Offer a Money Back Guarantee for our work</li>
+  <li>Combine our day rate with a success fee</li>
+  <li>Provide Total Peace of Mind</li>
+</h3></ul><br>
 
-## Features
-
-* [Responsive Gallery][8], [Videos][9], [Grid][10], [Typography][11],...
-* 100% GitHub Pages friendly
-* Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
-* Lots of possibilities to customize it to your needs
-* Lots of different headers
-* Various post formats to let your content shine
-* Uses Jekyll 3.0
-* Multiple possibilities to use images in different ways
-* Fine typography
-* Play Video and Audio with [Mediaelement.js][12]
-
-
-
-## I got inspired by...
-
-[Michael Rose][1] and his fabulous [themes for jekyll][2]. Authors of [A List Apart][4] and [Smashing Magazine][5] since 2002. [GitHub][6] and how they built such a habitat for cooperation worldwide. [Automattic][3] and how they built a fantastic community around WordPress. And many, many more...
-
-Please make *Feeling Responsive* yours and if you like it, please link back to my homebase <a href="http://phlow.de/">Phlow</a>. That would be awesome.
-
-#### Since then, fork it!
-
-Yours sincerelly, [Moritz »mo.« Sauer][7]
+<h3>Find out more about our unique <a href= "{{ site.url }}/Consulting/pages/guarantee/" > Guarantee </a>
+</h3>
 
 
- [1]: http://mademistakes.com/about/
+
+
+
+ [1]: /contact/
  [2]: http://mademistakes.com/work/jekyll-themes/
  [3]: http://automattic.com/
  [4]: http://alistapart.com/
  [5]: http://www.smashingmagazine.com/
  [6]: https://github.com/
  [7]: http://sauer.io
- [8]: {{ site.url }}/design/gallery/
- [9]: {{ site.url }}/design/video/
+ [8]: {{ site.url }}/Consulting/contact/
+ [9]: {{ site.url }}/Consulting/guarantee/
  [10]: {{ site.url }}/design/grid/
  [11]: {{ site.url }}/design/typography/
  [12]: {{ site.url }}/design/mediaelement_js/
