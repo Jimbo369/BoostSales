@@ -17,7 +17,7 @@ slogan: 'From Strategy to Sales'
 description: 'Superne Consulting provides Coaching, Mentoring and Consulting Services to the SME community to develop business strategy; generate business development initiatives; and improve marketing effectiveness leading to increased sales and enhanced profitability'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with &hearts; by Phlow using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> 
 
 # Main author of the website
 # See > authors.yml
@@ -25,8 +25,8 @@ author: James
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 # https://jimbo369.github.io/Consulting/
-url: ''
-baseurl: '/Consulting'
+url: 'https://jimbo369.github.io/Consulting'
+baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages

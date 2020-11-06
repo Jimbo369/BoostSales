@@ -1,27 +1,27 @@
-- name: GitHub
-  url: 
-  class: icon-github
-  title: Code und mehr...
+#- name: GitHub
+#  url:
+#  class: icon-github
+#  title: Code und mehr...
 
-- name: YouTube
-  url:
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+#- name: YouTube
+#  url:
+#  class: icon-youtube
+#  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
 - name: Twitter
   url: http://twitter.com/JimAustin61
   class: icon-twitter
   title: "Twitter Feed"
 
-- name: Mixcloud
-  url:
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: LinkedIn
+  url: https://www.linkedin.com/company/14041798/
+  class: icon-linkedin
+  title: "LinkedIn Page"
 
-- name: Phlow YouTube Google+
-  url:
-  class: icon-googleplus
-  title: "YouTube Google+"
+#- name: Phlow YouTube Google+
+#  url:
+#  class: icon-googleplus
+#  title: "YouTube Google+"
 
 # - name: Facebook
 #   url: http://www.facebook.com/

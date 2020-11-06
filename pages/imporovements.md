@@ -7,7 +7,7 @@ teaser: "How to generating more Leads, Improve Lead Conversion & Boosting Sales.
 
 header:
    image_fullwidth: "header_homepage_13.jpg"
-permalink: "/Improvements/"
+permalink: "/improvements/"
 
 gallery:
   - image_url: Formula-Slide.jpg

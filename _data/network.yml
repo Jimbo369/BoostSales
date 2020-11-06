@@ -1,12 +1,12 @@
 - menu_name: "Contact"
 
 - name: "Tel: +44 203 286 3635"
-  url: ""
+  url: /contact/
   class: "network-entypo"
   title: "Tel: +44 203 286 3635"
 
 - name: "email: enq@SuperneConsulting.co.uk"
-  url: ""
+  url: /contact/
   class: "services-newsletter"
   title: "email"
 

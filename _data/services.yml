@@ -1,4 +1,4 @@
-- menu_name: "Services"
+- menu_name: "Links"
 
 - name: "Contact"
   url: "/contact/"
@@ -8,10 +8,10 @@
   url: "/info/"
   title: "About Us"
 
-- name: "Atom"
-  url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+#- name: "Atom"
+#  url: "/atom.xml"
+#  title: "Subscribe to Atom Feed"
 
-- name: "sitemap.xml"
-  url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+#- name: "sitemap.xml"
+#  url: "/sitemap.xml"
+#  title: "Sitemap for Google Webmaster Tools"
