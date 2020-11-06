@@ -5,10 +5,10 @@ subheadline: ""
 teaser: ""
 categories:
     - design
-tags:
-    - design
-    - background color
-    - header
+#tags:
+#    - design
+#    - background color
+#    - header
 header:
     title: Strategy Development
     background-color: "#EFC94C;"

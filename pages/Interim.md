@@ -3,8 +3,8 @@ layout: page-fullwidth
 title: ""
 subheadline: ""
 teaser: ""
-categories:
-    - design
+#categories:
+#    - design
 tags:
     - design
     - background color
