@@ -5,12 +5,14 @@ title: ""
 subheadline: ""
 teaser: ""
 permalink: "/Interim/"
-#categories:
-#    - design
-#tags:
-#    - design
-#    - background color
-#    - header
+callforaction:
+  url: /contact/
+  text: Contact us Today - Find out How We Can Help You
+  style: success
+callforaction2:
+  url: /contact/
+  text: Ask for Your Free No Obligation Consultation!
+  style: success  
 header:
     title: Interim Management
 #    background-color: "#EFC94C;"

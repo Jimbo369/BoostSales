@@ -39,8 +39,13 @@ widget2:
 #
 callforaction:
   url: /contact/
-  text: Get in Touch Now!
+  text: Free Business Survey Worth over £495! - Just for contacting Us! Click Here!
   style: alert
+callforaction2:
+    url: /contact/
+    text: Fsecond Survey Worth over £495! - Just for contacting Us! Click Here!
+    style: alert
+
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
@@ -48,6 +53,7 @@ permalink: /index.html
 #
 homepage: true
 ---
+
 
 <!--
 <div id="videoModal" class="reveal-modal large" data-reveal="">

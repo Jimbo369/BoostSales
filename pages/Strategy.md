@@ -5,12 +5,14 @@ title: ""
 subheadline: ""
 teaser: ""
 permalink: "/Strategy/"
-#categories:
-#    - design
-#tags:
-#    - design
-#    - background color
-#    - header
+callforaction:
+  url: /contact/
+  text: Contact us Today - Find out How We Can Help You
+  style: alert
+callforaction2:
+  url: /contact/
+  text: Ask for Your Free No Obligation Consultation!
+  style: alert          
 header:
     title: Strategy Development
     background-color: "#EFC94C;"
@@ -21,7 +23,7 @@ header:
 ---
 <!--more-->
 
-## Why would you need to engage a Business Strategy Development Service?
+### Why would you need to engage a Business Strategy Development Service?
 
 <h4>
 <br>It is a fair question.<br><br>People starting up their own business usually have a pretty good idea what they want to do and what they want to gain.<br><br>That is all well and good - in fact it is essential to success to have those aims in front of mind.  However, more often than not many entrepreneurs are total experts about their new product or service that they are launching or bringing to market for the first time, but are challenged when it comes to objectively translating the ideas and goals into workable plans to operate the business.  

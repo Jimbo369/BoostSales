@@ -5,6 +5,19 @@
 - title: Sales Improvement
   url: "/improvements/"
   side: left
+  dropdown:
+  - title: The Formula
+    url: "/the formula/marketing elements/Formula/"
+  - title: Transform Existing Marketing
+    url: "/the formula/marketing elements/Transform/"
+  - title: Lead Generation
+    url: "/the formula/marketing elements/Lead-Generation/"
+  - title: Conversion to Sales
+    url: "/the formula/marketing elements/Sales-Conversion/"
+  - title: Maximising Value
+    url: "/the formula/marketing elements/Maximising-Value/"
+  - title: Systemise and Automate
+    url: "/the formula/marketing elements/Systemisation-&-Automation/"
 
 - title: "Consultancy Services"
   url: "/"
@@ -24,17 +37,13 @@
   url: "https://www.superne-coaching.com/roadmap-james-austin"
   side: left
 
-
 - title: About
   url: "/info/"
   side: left
 
-#- title: Blog
-#  url: "/blog/"
-#  side: left
-#  dropdown:
-#  - title: "Blog Archive"
-#    url: "/blog/archive/"
+- title: Articles
+  url: "/Article/Collection/"
+  side: left
 
 - title: "Search"
   url: "/search/"

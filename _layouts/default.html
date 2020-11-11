@@ -6,13 +6,55 @@ layout: compress
 <head>
 	{% include _head.html %}
 </head>
+
 <body id="top-of-page" class="{{ layout.format }}">
+
 	{% unless page.skip_boilerplate %}
 	{% include _navigation.html %}
 	{% endunless %}
 
 	{% include _masthead.html %}
+
+	{% comment %}
+	*
+	* First check, if there is a call for action-button
+	*
+	{% endcomment %}
+	{% if page.callforaction.url contains 'http' %}
+	{% assign url = '' %}
+	{% else %}
+	{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+	{% endif %}
+	{% if page.callforaction %}
+	    <div class="row t60 b60">
+	        <div class="small-12 text-center columns">
+	            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+	        </div><!-- /.small-12.columns -->
+	    </div><!-- /.row -->
+	{% endif %}
+
 	{{ content }}
+
+
+	{% comment %}
+	*
+	* First check, if there is a second call for action-button
+	*
+	{% endcomment %}
+	{% if page.callforaction2.url contains 'http' %}
+	{% assign url = '' %}
+	{% else %}
+	{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+	{% endif %}
+	{% if page.callforaction2 %}
+	    <div class="row t60 b60">
+	        <div class="small-12 text-center columns">
+	            <a class="button large radius {{ page.callforaction2.style }}" href="{{ url }}{{ page.callforaction2.url }}"{% if page.callforaction2.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction2.text }}</a>
+	        </div><!-- /.small-12.columns -->
+	    </div><!-- /.row -->
+	{% endif %}
+
+
 
 {% unless page.skip_boilerplate %}
 	{% include _footer.html %}
