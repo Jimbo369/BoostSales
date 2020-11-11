@@ -6,8 +6,8 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
-
+  image-fullwidth: racer.webp
+  background-color: "#262930"
   title: Boost Sales & Grow Profits...<br>...GUARANTEED!!
   subtitle: "Strategy | Marketing | Sales"
   description: <h2>...learn the secrets right here! </h2>
@@ -43,7 +43,7 @@ callforaction:
   style: alert
 callforaction2:
     url: /contact/
-    text: Fsecond Survey Worth over £495! - Just for contacting Us! Click Here!
+    text: Free Survey Worth over £495! - Just for contacting Us! Click Here!
     style: alert
 
 permalink: /index.html

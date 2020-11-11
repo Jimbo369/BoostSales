@@ -6,7 +6,7 @@ meta_teaser: "Get results quickly by transforming what you do now."
 teaser: "<em>Transforming</em> existing marketing activities is about making the current strategies as effective as possible."
 header:
     image: gallery-example-2.jpg
-    background-color: "#622930"
+    background-color: "#262930"
     caption:
     caption_url:
 image:
