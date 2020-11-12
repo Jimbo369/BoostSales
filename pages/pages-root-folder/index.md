@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image-fullwidth: header_unsplash_12.jpg
+  image-fullwidth: 
   background-color: "#262930"
   title: Boost Sales & Grow Profits...<br>...GUARANTEED!!
   subtitle: "Strategy | Marketing | Sales"
