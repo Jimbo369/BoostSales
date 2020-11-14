@@ -1,6 +1,6 @@
 ---
 layout: page
-sidebar: right
+sidebar: 
 subheadline:
 title:  ""
 header:
