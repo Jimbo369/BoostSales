@@ -8,7 +8,15 @@
 #   Variables › {{ title }} › page.title
 #
 {% endcomment %}{% capture ignore %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLDFC2WPRV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-ZLDFC2WPRV');
+</script>
 {% assign url = site.baseurl | prepend: site.url %}
 
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
