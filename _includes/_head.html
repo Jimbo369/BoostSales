@@ -17,7 +17,7 @@
 #   Variables › {{ description }} › excerpt, page.meta_description, or site.description
 #   Variables › {{ title }} › page.title
 #
-{% endcomment %}{% capture ignore %}
+{% endcomment %}
 {% assign url = site.baseurl | prepend: site.url %}
 
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
