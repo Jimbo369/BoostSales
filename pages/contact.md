@@ -1,6 +1,6 @@
 ---
 layout: page
-sidebar: 
+sidebar: right
 subheadline:
 title:  ""
 header:
@@ -13,7 +13,7 @@ breadcrumb: false
 ---
 
 
-{% include contactzoho.html %}
+{% include contactwoofoo.html %}
 
 
 {: .t60 }
