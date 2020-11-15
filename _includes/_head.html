@@ -1,13 +1,4 @@
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLDFC2WPRV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZLDFC2WPRV');
-</script>
 {% comment %}
 #
 #   Liquid variables are created at the top to keep the source DRY and clean.
@@ -17,7 +8,18 @@
 #   Variables › {{ description }} › excerpt, page.meta_description, or site.description
 #   Variables › {{ title }} › page.title
 #
-{% endcomment %}
+{% endcomment %}{% capture ignore %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLDFC2WPRV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZLDFC2WPRV');
+</script>
+
 {% assign url = site.baseurl | prepend: site.url %}
 
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
