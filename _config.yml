@@ -25,7 +25,7 @@ author: James
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 # https://jimbo369.github.io/Consulting/
-url: 'http://jimbo369.github.io/Consulting'
+url: 'https://jimbo369.github.io/Consulting'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -38,7 +38,7 @@ improve_content: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg) - change for production
 #
-urlimg: 'http://jimbo369.github.io/Consulting/images/'
+urlimg: 'https://jimbo369.github.io/Consulting/images/'
 
 
 # Logo size is 600x80 pixels
