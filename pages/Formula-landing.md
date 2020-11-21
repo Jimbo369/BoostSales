@@ -8,7 +8,7 @@ title: "FORMULA"
 teaser: "Just fill in your details and you will be directed to the download page"
 categories:
 permalink: "/FormulaOnePager/"
-
+do_not_compress: true
 #
 # Styling
 #
