@@ -23,6 +23,7 @@ layout: compress
 	{% if page.callforaction.url contains 'http' %}
 	{% assign url = '' %}
 	{% else %}
+	
 	{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
 	{% endif %}
 	{% if page.callforaction %}

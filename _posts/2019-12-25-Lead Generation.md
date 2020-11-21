@@ -22,7 +22,7 @@ callforaction2:
     url: /contact/
     text: Learn How to Boost Lead Generation - Contact us Now!
     style: success
-
+permalink: /lead-generation/
 ---
 <div id="header-home">
     <div class="row">
@@ -52,6 +52,8 @@ So how do you find these dozens of ways to generate leads?
 Our programme will not just show you what they are but will guide you through using and implementing them.  What to use and when...the infrastructure you need to have in place - what to do and when to do it.
 
 > <span class="teaser">"This system shows you all you need to know to grow your sales - from acquiring clients to looking after them, it has changed my business massively!"</span><cite>[Brendon Jones,Lansdorne]</cite>
+
+<h3>The Next Step in the FORMULA is C for <a href='/conversion/'>Lead Conversion </a></h3>
 
 {% comment %}
 *

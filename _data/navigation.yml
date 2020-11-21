@@ -7,17 +7,17 @@
   side: left
   dropdown:
   - title: The Formula
-    url: "/the formula/marketing elements/Formula/"
+    url: "/formula/"
   - title: Transform Existing Marketing
-    url: "/the formula/marketing elements/Transform/"
+    url: "/transform/"
   - title: Lead Generation
-    url: "/the formula/marketing elements/Lead-Generation/"
+    url: "/lead-generation/"
   - title: Conversion to Sales
-    url: "/the formula/marketing elements/Sales-Conversion/"
+    url: "/conversion/"
   - title: Maximising Value
-    url: "/the formula/marketing elements/Maximising-Value/"
+    url: "/maximising-value/"
   - title: Systemise and Automate
-    url: "/the formula/marketing elements/Systemisation-&-Automation/"
+    url: "/systemise/"
 
 - title: "Consultancy Services"
   url: "/"

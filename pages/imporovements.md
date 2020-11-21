@@ -14,11 +14,11 @@ gallery:
     caption: The Formula to Grow Sales
 callforaction:
       url: /contact/
-      text: Free Business Survey Worth over £495! - Just for contacting Us! Click Here!
+      text: Get in Touch - Find out how we can help YOU!
       style: success
 callforaction2:
         url: /contact/
-        text: Remember to Ask for Your Free No Obligation Survey!
+        text: Contact us - Remember to Ask for Your Free No Obligation Survey!
         style: alert
 
 ---
@@ -31,9 +31,9 @@ callforaction2:
  {% include gallery %}
 
 
-<h5>The Formula is an easy to understand definition explaining exactly how marketing works and why it works in that way.  It is the culmination of over 20 years of work by Steve Hackney of The Core Asset, and it proves that marketing activities can be constructed and deployed in a logical and methodical way which will guarantee that sales will be increased.  It is a scientific revelation!</h5>
+<h5>The Formula is an easy to understand definition explaining exactly how marketing works and why it works in that way.  It is the culmination of over 20 years of work by Steve Hackney of The Core Asset, and it proves that marketing activities can be constructed and deployed in a logical and methodical way which will guarantee that sales will be increased.  It is a scientific revelation!</h5><br>
 
-
+<h3>Want to know more detail? First look at <a href='/formula/'>the DNA of Marketing </a> article:</h3>
 
 
 <hr>

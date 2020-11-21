@@ -6,9 +6,9 @@
 #
 layout: frontpage
 header:
-  image-fullwidth: 
+  image-fullwidth:
   background-color: "#262930"
-  title: Boost Sales & Grow Profits...<br>...GUARANTEED!!
+  title: Own a Small Business?<br>Boost Sales & Grow Profits..<br>...GUARANTEED!!
   subtitle: "Strategy | Marketing | Sales"
   description: <h2>...learn the secrets right here! </h2>
 
@@ -38,12 +38,12 @@ widget2:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: /contact/
-  text: Free Business Survey Worth over £495! - Just for contacting Us! Click Here!
+  url: https://www.superne-coaching.com/roadmap-james-austin
+  text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
   style: alert
 callforaction2:
-    url: /contact/
-    text: Free Survey Worth over £495! - Just for contacting Us! Click Here!
+    url: https://www.superne-coaching.com/roadmap-james-austin
+    text: Remember to get your FREE Business ROADMAP!
     style: alert
 
 permalink: /index.html

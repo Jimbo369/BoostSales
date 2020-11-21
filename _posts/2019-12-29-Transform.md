@@ -20,9 +20,10 @@ categories:
   - Marketing Elements
 
 callforaction2:
-          url: /contact/
-          text: Remember to Ask for Your Free No Obligation Survey!
+          url: https://www.superne-coaching.com/1-page-formula-james-austin
+          text: Download 1-Page FORMULA Description Here
           style: alert
+permalink: /transform/          
 ---
 
 <div class="row">
@@ -71,6 +72,7 @@ The Core Elements consist of 5 Marketing components and 4 Sales components.  In 
 #### Call to Action
 <p>Often overlooked, but it is crucial to guide your prospective customer through your sales process.  The actions they should take next and remember to outline what they can expect to happen after that.  It is also a good time to remind them of your offer and any other reason why they should take the action without delay.</p>
 
+<h3>The Next Step in the FORMULA is L for <a href='/lead-generation/'>Lead Generation </a></h3>
  {: .t60 }
  <hr>
   <!-- Display list of blog posts - marketing components -->
