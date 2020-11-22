@@ -20,7 +20,7 @@ categories:
   - Marketing Elements
 
 callforaction2:
-          url: https://www.superne-coaching.com/1-page-formula-james-austin
+          url: /FormulaOnePager/
           text: Download 1-Page FORMULA Description Here
           style: alert
 permalink: /transform/          
