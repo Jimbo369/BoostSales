@@ -8,10 +8,10 @@
   url: "/info/"
   title: "About Us"
 
-#- name: "Atom"
-#  url: "/atom.xml"
-#  title: "Subscribe to Atom Feed"
+- name: "Privacy Policy"
+  url: "/privacy/"
+  title: "Privacy Policy"
 
-#- name: "sitemap.xml"
-#  url: "/sitemap.xml"
-#  title: "Sitemap for Google Webmaster Tools"
+- name: "Terms"
+  url: "/TOS/"
+  title: "Terms of Service"

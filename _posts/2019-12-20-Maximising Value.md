@@ -68,7 +68,7 @@ Assuming this is the case then in this section, we focus on increasing value acr
   <!-- Display list of blog posts - marketing components -->
  <div class="medium-10 columns">
          <p><strong>{{ site.data.language.more_articles }}</strong></p>
-         {% include list-posts entries='8' offset='0' %}
+         {% include list-posts entries='5' offset='0' %}
  </div><!-- /.medium-10.columns -->
 
 

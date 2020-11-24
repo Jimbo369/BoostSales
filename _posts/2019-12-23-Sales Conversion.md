@@ -70,7 +70,7 @@ This is equivalent to growing from an annual turnover of £150,000 to £345,000 
  <!-- Display list of blog posts - marketing components -->
 <div class="medium-10 columns">
         <p><strong>{{ site.data.language.more_articles }}</strong></p>
-        {% include list-posts entries='8' offset='0' %}
+        {% include list-posts entries='5' offset='0' %}
 </div><!-- /.medium-10.columns -->
 
 

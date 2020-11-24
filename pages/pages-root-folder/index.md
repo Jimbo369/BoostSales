@@ -3,13 +3,13 @@
 # Use the widgets beneath and the content will be
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
-#
+# Black background "#262930"
 layout: frontpage
 header:
   image-fullwidth:
-  background-color: "#262930"
+  background-color:  "#3B23CB"
   title: Own a Small Business?<br>Boost Sales & Grow Profits..<br>...GUARANTEED!!
-  subtitle: "Strategy | Marketing | Sales"
+  subtitle:
   description: <h2>...learn the secrets right here! </h2>
 
 widget1:

@@ -57,7 +57,7 @@ One of the useful consequences of performing this action is that you will be abl
   <!-- Display list of blog posts - marketing components -->
  <div class="medium-10 columns">
          <p><strong>{{ site.data.language.more_articles }}</strong></p>
-         {% include list-posts entries='8' offset='0' %}
+         {% include list-posts entries='5' offset='0' %}
  </div><!-- /.medium-10.columns -->
 
 

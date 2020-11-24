@@ -3,16 +3,15 @@ layout: page
 #
 # Content
 #
-subheadline: "Thank You For Completing the form - Your Download is ready "
-title: ""
+header:
+  image_fullwidth: "unsplash_brooklyn-bridge_header.jpg"
+  title: "Thank You For Completing the form - Your Download is ready "
+
 teaser: ""
 #
 # Styling
 #
-header:
-    image_fullwidth: "unsplash_brooklyn-bridge_header.jpg"
-image:
-    thumb: "unsplash_brooklyn-bridge-thumb.jpg"
+
 #
 # Metainformation & Customization
 #
@@ -24,7 +23,7 @@ callforaction2:
     style: alert
 ---
 <div>
-  		<a href="/Downloads/One+Page+FORMULA+-+James+Austin.pdf" download="OnePageFORMULA-JA.pdf"> <button type="button" color="red">Click this Button to download the Single Page Description</button></a>
+  		<a href="/Downloads/One+Page+FORMULA+-+James+Austin.pdf" download="OnePageFORMULA-JA.pdf"> <button type="button" color="green">Click this Button to download the Single Page Description</button></a>
 </div>
 ## If you have any questions....
 The 1-page Business Growth Formula that you can download using the button above is a complete overview of what you need to do to be successful in your quest to grow your business. You can get more detail about the Formula <a href= "/the formula/marketing elements/Formula/"> on this page</a>.

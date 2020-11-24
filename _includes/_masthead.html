@@ -16,14 +16,15 @@
 
 
 
-
+<!-- Set font size to 30px for header to read ok in mobile-->
 
 {% elsif page.header.title %}
 
 <div id="masthead-with-text" style="{% if page.header.background-color %}background: {{ page.header.background-color }};{% endif %} {% if page.header.image_fullwidth %}{% elsif page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'){% endif %}">
 	<div class="row">
 		<div class="small-12 columns">
-			<div class="masthead-title">{{ page.header.title }}</div>
+			<div style= "font-size:30px" class="masthead-title">{{ page.header.title }} </div><br>
+			<div style= "font-size:20px; color:black" class="masthead-subtitle">{{ page.header.subtitle }} </div>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->

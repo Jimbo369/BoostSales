@@ -5,6 +5,11 @@ layout: compress
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	{% include _head.html %}
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#edfdfa","text":"#000000","border":"#5ec2b6"},"button":{"background":"#5ec2b6","text":"#ffffff"}},"position":"bottom","content":{"href":"https://www.superneconsulting.co.uk/cookies","message":"This website uses cookies to ensure you get the best experience.  ","button":"OK I understand!"}})});</script>
+
+
 </head>
 
 <body id="top-of-page" class="{{ layout.format }}">
@@ -77,6 +82,6 @@ s.parentNode.insertBefore(b, s);})();
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1107945&fmt=gif" />
 </noscript>
-	
+
 </body>
 </html>

@@ -3,9 +3,12 @@ layout: page
 #
 # Landing page for download 1 page formula sheet
 #
-subheadline: "Your FREE single page copy of the"
-title: "FORMULA"
-teaser: "Just fill in your details and you will be directed to the download page"
+header:
+  image-fullwidth: "header_unsplash_12.jpg"
+  background-color:  "#3B23CB"  
+  title: "Everything You Need To Grow Your Business Quickly & Cost-Effectively....FREE!"
+subheadline: ""
+teaser: "All on one page - Just fill in your details and you will be directed to the download page"
 categories:
 permalink: "/FormulaOnePager/"
 do_not_compress: true
@@ -18,11 +21,10 @@ image:
     homepage:
     caption:
     caption_url:
-
-
 ---
 
-<!-- Note :
+
+<!-- COntact form for zoho crm Note :
    - You can modify the font style and form style to suit your website.
    - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code.
    - The Mandatory check script can modified as to suit your business needs.
