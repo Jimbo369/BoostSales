@@ -15,3 +15,7 @@
 - name: "Terms"
   url: "/TOS/"
   title: "Terms of Service"
+
+- name: "Cookies"
+  url: "/Cookie/"
+  title: "Cookie Policy"
