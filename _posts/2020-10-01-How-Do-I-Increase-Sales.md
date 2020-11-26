@@ -23,6 +23,10 @@ image:
     caption_url: ""
 categories:
     - Marketing Elements
+callforaction:
+          url: https://www.superne-coaching.com/roadmap-james-austin
+          text: Arrange a ROADMAP Meeting Here!
+          style: alert    
 callforaction2:
           url: https://www.superne-coaching.com/roadmap-james-austin
           text: Arrange a ROADMAP Meeting Here!
@@ -33,7 +37,7 @@ callforaction2:
 <p>Many small and medium sized businesses owners are understandably unfamiliar with the sales and marketing aspects of business.  Why so?  What I mean is that sales and marketing is usually not their forte.</p>  
 <p>Invariably, business owners have launched their own business because they have a brilliant new idea; or are experts in a particular field and know they can do it better than their employer so strike out alone.  The product or service offered by business owner is their forte – the sales and marketing function is a necessary evil to many!</p>
 <p>You may be in this category yourself.  You may also think – quite rightly – that you have managed to navigate the sales and marketing jungle quite well so far.  You have generated a customer base – you have traction in the market.  If this is true for you, then congratulate yourself it is no mean feat!</p>  
-<p>This article is the first of a series intended to guide you in your journey to get your business to the ‘next level’.</p>  There are really 4 main steps to follow: Very simply these are:
+<p>This article is the first of a series intended to guide you in your journey to get your business to the ‘next level’.</p>  There are really 4 main steps to follow: Very simply these are:<br>
 <list>
 1. Generate Sales Leads;<br>
 2. Convert Leads to Sales;<br>

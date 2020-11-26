@@ -4,7 +4,7 @@ sidebar: right
 subheadline:
 title:  ""
 header:
-    title: Contact Page
+    title: Contact Us
     image_fullwidth: "gallery-example-5.jpg"
     background-color: "#EFC94C;"
 teaser: "It's easy - just call, email or fill in the form below"
