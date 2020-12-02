@@ -130,7 +130,7 @@ body {
     <div class="column-first left" style="background-color:none;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/roadmap.jpg" alt="">
     </div> <!-- end column left-->
-    <div class="column-first right" style="background: transparent; text-align: center">
+    <div class="column-first right" style="background: #F6DF01; text-align: center">
       <h1>FIX YOUR MARKETING</h1>
       <p><h2>
   		And Increase<br><br>Your Sales & Profits<br><br>In Less Than 45 Minutes As Our<br><br> Software Pinpoints Your 'Opportunity Areas' &<br><br>Shows You Exactly What To Improve</h2>
