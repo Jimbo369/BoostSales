@@ -125,9 +125,9 @@ body {
 	{% include _navigation.html %}
 
 
-
+<!--
   <div class="panel radius" style="background-image: url('/images/racer2.jpg'); background-repeat: no-repeat; background-attachment: fixed;  background-size: 100% 100%; ">
-
+-->
 
   <div class="row"> <!--display two columns-->
     <div class="column-first left" style="background-color:none;">
@@ -159,7 +159,7 @@ body {
     </div> <!-- /modal 1 -->
  </div>
 
-</div><!-- end background image-->
+<!--</div><!-- end background image-->
 
 <div class="row" style="background-color: rgba(0, 0, 255, 1); background-attachment: fixed;  background-size: 100% 100%;" ><!--Plain background-->
 
