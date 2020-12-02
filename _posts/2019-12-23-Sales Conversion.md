@@ -20,7 +20,7 @@ categories:
   - Marketing Elements
 
 callforaction2:
-          url: /roadmap-landing/
+          url: 'https://www.superne-coaching.com/roadmap-james-austin'
           text: Remember the FREE ROADMAP Consultation
           style: alert
 permalink: /conversion/          
