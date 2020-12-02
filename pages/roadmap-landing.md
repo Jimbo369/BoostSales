@@ -1,12 +1,12 @@
 ---
-layout: compress
+
 permalink: /roadmap-landing/
 callforaction:
   url:
   text: YES! I want the ROADMAP
   style: success    
 callforaction2:
-    url: 
+    url:
     text: YES! I want this!
     style: warning    
 ---
