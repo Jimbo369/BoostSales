@@ -1,293 +1,187 @@
 ---
-layout: page
-#
-# Landing page for download 1 page formula sheet
-#
-header:
-  image-fullwidth: "header_unsplash_12.jpg"
-  background-color:  "#3B23CB"  
-  title: "Everything You Need To Grow Your Business Quickly & Cost-Effectively....FREE!"
-subheadline: ""
-teaser: "All on one page - Just fill in your details and you will be directed to the download page"
-categories:
-permalink: "/FormulaOnePager/"
-do_not_compress: true
-#
-# Styling
-#
-image:
-    title:
-    thumb:
-    homepage:
-    caption:
-    caption_url:
+layout: compress
+permalink: /formula-landing/
+callforaction:
+  url: 
+  text:
+  style:     
+callforaction2:
+    url:
+    text:
+    style:     
 ---
 
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
 
-<!-- COntact form for zoho crm Note :
-   - You can modify the font style and form style to suit your website.
-   - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code.
-   - The Mandatory check script can modified as to suit your business needs.
-   - It is important that you test the modified form before going live.-->
-<div id='crmWebToEntityForm' class='zcwf_lblRight crmWebToEntityForm' style='background-color: #35C3F2;color: black;max-width: 600px;'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads320819000000266556 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory320819000000266556()' accept-charset='UTF-8'>
- <input type='text' style='display:none;' name='xnQsjsdp' value='5e63d97a5a71d131b670531eaab98cc2ef64aaf86ffd53f9a32178e4bf92e5e9'/>
- <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
- <input type='text' style='display:none;' name='xmIwtLD' value='ca31c2bff530fedc88aa9d5863e5bfa742086a1c33fd2882bb7a6a363ee99e15'/>
- <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='/>
- <input type='text' style='display:none;' name='returnURL' value='http://superneconsulting.co.uk/onepage-download' />
-	 <!-- Do not remove this code. -->
+	{% include _head.html %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel= "stylesheet" href="/assets/css/modalstyle.css">
+
 <style>
-html,body{
-	margin: 0px;
+* { box-sizing: border-box;
 }
-#crmWebToEntityForm.zcwf_lblRight {
-	width:100%;
-	padding: 25px;
-	margin: 0 auto;
-	box-sizing: border-box;
+.buttcent{
+  margin: 0;
+  position: absolute;
+
+  left: 75%;
+  -ms-transform: translate(50%, 50%);
+  transform: translate(-100%, -100%);
 }
-#crmWebToEntityForm.zcwf_lblRight * {
-	box-sizing: border-box;
+@media screen and (max-width: 900px) {
+  .butcent {
+    width: 100%;
+  }}
+<!--/* Create two unequal columns that floats next to each other */ -->
+.column-first {
+  float: left;
+  padding: 10px;
 }
-#crmWebToEntityForm{text-align: left;}
-#crmWebToEntityForm * {
-	direction: ltr;
+
+.left {
+  width: 40%;
 }
-.zcwf_lblRight .zcwf_title {
-	word-wrap: break-word;
-	padding: 0px 6px 10px;
-	font-weight: bold;
+
+.right {
+  width: 60%;
 }
-.zcwf_lblRight .zcwf_col_fld input[type=text], .zcwf_lblRight .zcwf_col_fld textarea {
-	width: 60%;
-	border: 1px solid #ccc;
-	resize: vertical;
-	border-radius: 2px;
-	float: left;
+
+.column-second {
+  float: left;
+  padding: 10px;
 }
-.zcwf_lblRight .zcwf_col_lab {
-	width: 30%;
-	word-break: break-word;
-	padding: 0px 6px 0px;
-	margin-right: 10px;
-	margin-top: 5px;
-	float: left;
-	min-height: 1px;
-	text-align: right;
+.left2 {
+  width: 60%;
 }
-.zcwf_lblRight .zcwf_col_fld {
-	float: left;
-	width: 68%;
-	padding: 0px 6px 0px;
-	position: relative;
-	margin-top: 5px;
+
+.right2 {
+  width: 40%;
 }
-.zcwf_lblRight .zcwf_privacy{padding: 6px;}
-.zcwf_lblRight .wfrm_fld_dpNn{display: none;}
-.dIB{display: inline-block;}
-.zcwf_lblRight .zcwf_col_fld_slt {
-	width: 60%;
-	border: 1px solid #ccc;
-	background: #fff;
-	border-radius: 4px;
-	font-size: 14px;
-	float: left;
-	resize: vertical;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.zcwf_lblRight .zcwf_row:after, .zcwf_lblRight .zcwf_col_fld:after {
-	content: '';
-	display: table;
-	clear: both;
+
+<!--/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ -->
+@media screen and (max-width: 600px) {
+  .column-first {
+    width: 100%;
+  }
+@media screen and (max-width: 600px) {
+  .column-second {
+    width: 100%;
+  }
 }
-.zcwf_lblRight .zcwf_col_help {
-	float: left;
-	margin-left: 7px;
-	font-size: 14px;
-	max-width: 35%;
-	word-break: break-word;
-}
-.zcwf_lblRight .zcwf_help_icon {
-	cursor: pointer;
-	width: 16px;
-	height: 16px;
-	display: inline-block;
-	background: #fff;
-	border: 1px solid #ccc;
-	color: #ccc;
-	text-align: center;
-	font-size: 11px;
-	line-height: 16px;
-	font-weight: bold;
-	border-radius: 50%;
-}
-.zcwf_lblRight .zcwf_row {margin: 15px 0px;}
-.zcwf_lblRight .formsubmit {
-	margin-right: 5px;
-	cursor: pointer;
-	color: #333;
-	font-size: 14px;
-}
-.zcwf_lblRight .zcwf_privacy_txt {
-	color: rgb(0, 0, 0);
-	font-size: 14px;
-	font-family: Verdana;
-	display: inline-block;
-	vertical-align: top;
-	color: #333;
-	padding-top: 2px;
-	margin-left: 6px;
-}
-.zcwf_lblRight .zcwf_button {
-	font-size: 14px;
-	color: #333;
-	border: 1px solid #ccc;
-	padding: 3px 9px;
-	border-radius: 4px;
-	cursor: pointer;
-	max-width: 120px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-.zcwf_lblRight .zcwf_tooltip_over{
-	position: relative;
-}
-.zcwf_lblRight .zcwf_tooltip_ctn{
-	position: absolute;
-	background: #dedede;
-	padding: 3px 6px;
-	top: 3px;
-	border-radius: 4px;word-break: break-all;
-	min-width: 50px;
-	max-width: 150px;
-	color: #333;
-}
-.zcwf_lblRight .zcwf_ckbox{
-	float: left;
-}
-.zcwf_lblRight .zcwf_file{
-	width: 55%;
-	box-sizing: border-box;
-	float: left;
-}
-.clearB:after{
-	content:'';
-	display: block;
-	clear: both;
-}
-@media all and (max-width: 600px) {
-	.zcwf_lblRight .zcwf_col_lab, .zcwf_lblRight .zcwf_col_fld {
-		width: auto;
-		float: none !important;
-	}
-	.zcwf_lblRight .zcwf_col_help {width: 40%;}
-	.zcwf_lblRight.zcwf_rtl .zcwf_col_lab {text-align: left;}
-	.zcwf_lblRight.zcwf_rtl .zcwf_col_lab {text-align: right;}
+
+body {
+  font-size: 100%
 }
 </style>
-<div class='zcwf_title' style='max-width: 600px;color: black;'>Contact Form</div>
-<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='First_Name'>First Name</label></div><div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'/><div class='zcwf_col_help'></div></div></div>
-<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='Last_Name'>Last Name<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'/><div class='zcwf_col_help'></div></div></div>
-<div class='zcwf_row wfrm_fld_dpNn'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='Lead_Source'>Lead Source</label></div><div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source'  >
-			<option value='-None-'>-None-</option>
-		<option selected value='OnePageFORMULA'>OnePageFORMULA</option>
-			<option value='Cold&#x20;Call'>Cold Call</option>
-			<option value='Employee&#x20;Referral'>Employee Referral</option>
-			<option value='External&#x20;Referral'>External Referral</option>
-			<option value='Partner'>Partner</option>
-			<option value='Public&#x20;Relations'>Public Relations</option>
-			<option value='Trade&#x20;Show'>Trade Show</option>
-			<option value='Web&#x20;Form'>Web Form</option>
-			<option value='Search&#x20;Engine'>Search Engine</option>
-			<option value='Facebook'>Facebook</option>
-			<option value='Twitter'>Twitter</option>
-			<option value='Online&#x20;Store'>Online Store</option>
-			<option value='Seminar&#x20;Partner'>Seminar Partner</option>
-			<option value='Web&#x20;Download'>Web Download</option>
-		</select><div class='zcwf_col_help'></div></div></div>
-<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='Company'>Company</label></div><div class='zcwf_col_fld'><input type='text' id='Company' name='Company' maxlength='100'/><div class='zcwf_col_help'></div></div></div>
-<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='Email'>Email<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' maxlength='100'/><div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div><div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'><input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'></div></div>
-	<script>
- 	  var mndFileds=new Array('Last Name','Email');
- 	  var fldLangVal=new Array('Last Name','Email');
-		var name='';
-		var email='';
-	function validateEmail()
-	{
-		var emailFld = document.querySelectorAll('[ftype=email]');
-		var i;
-		for (i = 0; i < emailFld.length; i++)
-		{
-			var emailVal = emailFld[i].value;
-			if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
-			{
-				var atpos=emailVal.indexOf('@');
-				var dotpos=emailVal.lastIndexOf('.');
-				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
-				{
-					alert('Please enter a valid email address. ');
-					emailFld[i].focus();
-					return false;
-				}
-			}
-		}
-		return true;
-	}
-
- 	  function checkMandatory320819000000266556() {
-		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads320819000000266556'][mndFileds[i]];
-		  if(fieldObj) {
-			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-			 if(fieldObj.type =='file')
-				{
-				 alert('Please select a file to upload.');
-				 fieldObj.focus();
-				 return false;
-				}
-			alert(fldLangVal[i] +' cannot be empty');
-   	   	  	  fieldObj.focus();
-   	   	  	  return false;
-			}  else if(fieldObj.nodeName=='SELECT') {
-  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-				alert(fldLangVal[i] +' cannot be none');
-				fieldObj.focus();
-				return false;
-			   }
-			} else if(fieldObj.type =='checkbox'){
- 	 	 	 if(fieldObj.checked == false){
-				alert('Please accept  '+fldLangVal[i]);
-				fieldObj.focus();
-				return false;
-			   }
-			 }
-			 try {
-			     if(fieldObj.name == 'Last Name') {
-				name = fieldObj.value;
- 	 	 	    }
-			} catch (e) {}
-		    }
-		}
-		if(!validateEmail()){return false;}
-		document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-	}
-
-function tooltipShow(el){
-	var tooltip = el.nextElementSibling;
-	var tooltipDisplay = tooltip.style.display;
-	if(tooltipDisplay == 'none'){
-		var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
-		for(i=0; i<allTooltip.length; i++){
-			allTooltip[i].style.display='none';
-		}
-		tooltip.style.display = 'block';
-	}else{
-		tooltip.style.display='none';
-	}
+<style>
+* {
+  box-sizing: border-box;
 }
+/* Create single floating column */
+.column {
+  float: center;
+  width: 100%;
+  padding: 10px;
+  }
+@media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
+  }
+/* Create three equal columns that floats next to each other */
+.column-three {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column-three {
+    width: 100%;
+  }
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#edfdfa","text":"#000000","border":"#5ec2b6"},"button":{"background":"#5ec2b6","text":"#ffffff"}},"position":"bottom","content":{"href":"https://www.superneconsulting.co.uk/cookies","message":"This website uses cookies to ensure you get the best experience.  ","button":"OK I understand!"}})});</script>
+
+</head>
+
+<body >
+	{% include _navigation.html %}
+
+<div class="panel radius" style="background-image: url('/images/onepagebackground.png'); background-repeat: repeat; background-attachment: fixed;  background-size: 100% 100%; ">
+    <div class="row"> <!--display two columns-->
+        <div class="column-first left" style="background-color:none;">
+        <!-- Empty left column-->
+        </div> <!-- end column left-->
+        <div class="column-first right" style="background: rgba(255, 255, 255, 0.6);  text-align: center">
+          <h2 color="white">1-Page BUSINESS GROWTH FORMULA</h2><br>
+          <h1>FREE DOWNLOAD</h1>
+          <p><h2>Everything You Need To Grow<br><br>Your Business Quickly & Cost<br><br> Effectively On One Page<br><br></h2>
+      		<h4>Simply click on the button below to get started</h4></p>
+          <h4>We respect your privacy and will never share your details</h4>
+        </div> <!-- end column right-->
+    </div>   <!-- end display two columns-->
+    {% comment %}
+    *
+    * call for action-button
+    *
+    {% endcomment %}
+    {% if page.callforaction.url contains 'http' %}
+    {% assign url = '' %}
+    {% else %}
+
+    {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+    {% endif %}
+    {% if page.callforaction %}
+    <!-- modal 3 -->
+    <div class="box">
+      <a href="#m3-o" class="link-1" >DOWNLOAD HERE</a>
+        <div class="modal-container" id="m3-o" style="--m-background: hsla(0, 0%, 0%, 0.4);">
+        <div class="modal" style="--m-shadow: 0 0 10rem 0">
+          <h4 align=center class="modal__title">Please Enter Your Details Here to Get The Download</h4>
+          {% include contactonepagezoho.html %}
+          <h4 align=center >This service is FREE of charge <br>We respect your privacy and will never share your details</h4>
+          <a href="#m3-c" class="link-2"></a>
+        </div>
+      </div>
+    </div>
+    <!-- /modal 2 -->
+    {% endif %}
+</div> <!--end of background-->
+</body>
+
+
+<!-- Include LinkedIn script -->
+<script type="text/javascript">
+		_linkedin_partner_id = "1107945";
+		window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+		window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+		</script><script type="text/javascript">
+		(function(){var s = document.getElementsByTagName("script")[0];
+		var b = document.createElement("script");
+		b.type = "text/javascript";b.async = true;
+		b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+		s.parentNode.insertBefore(b, s);})();
 </script>
-	</form>
-</div>
+
+<noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1107945&fmt=gif" />
+</noscript>
+
+</html>

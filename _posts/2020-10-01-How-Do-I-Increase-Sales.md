@@ -24,7 +24,7 @@ image:
 categories:
     - Marketing Elements
 callforaction:
-          url: https://www.superne-coaching.com/roadmap-james-austin
+          url: /roadmap-landing/
           text: Arrange a ROADMAP Meeting Here!
           style: alert    
 callforaction2:

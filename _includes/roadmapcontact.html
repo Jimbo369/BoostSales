@@ -1,10 +1,70 @@
-<!-- COntact form for zoho crm Note :
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>Modal Example</h2><br><br><br><br><br><br><br><br><br><br>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Get t roadmap</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <!-- COntact form for zoho crm Note :
    - You can modify the font style and form style to suit your website.
    - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code.
    - The Mandatory check script can modified as to suit your business needs.
    - It is important that you test the modified form before going live.-->
 
-<div id='crmWebToEntityForm' class='zcwf_lblRight crmWebToEntityForm' style='background-color: ;color: black;max-width: 600px;'>
+<div id='crmWebToEntityForm' class='zcwf_lblRight crmWebToEntityForm' style='background-color: #35C3F2;color: black;max-width: 600px;'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
    <form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads320819000000266556 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory320819000000266556()' accept-charset='UTF-8'>
@@ -164,7 +224,7 @@ html,body{
 	.zcwf_lblRight.zcwf_rtl .zcwf_col_lab {text-align: right;}
 }
 </style>
-<div class='zcwf_title' style='max-width: 600px;color: black;'></div>
+<div class='zcwf_title' style='max-width: 600px;color: black;'>Contact Form</div>
 <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='First_Name'>First Name</label></div><div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'/><div class='zcwf_col_help'></div></div></div>
 <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='Last_Name'>Last Name<span style='color:red;'>*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'/><div class='zcwf_col_help'></div></div></div>
 <div class='zcwf_row wfrm_fld_dpNn'><div class='zcwf_col_lab' style='font-size:14px; font-family: Verdana;'><label for='Lead_Source'>Lead Source</label></div><div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source'  >
