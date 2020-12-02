@@ -11,7 +11,7 @@ callforaction2:
     style: warning    
 ---
 
-<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<html  lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 
 	{% include _head.html %}
