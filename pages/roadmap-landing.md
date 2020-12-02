@@ -116,14 +116,11 @@ body {
 }
 </style>
 
-
   <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#edfdfa","text":"#000000","border":"#5ec2b6"},"button":{"background":"#5ec2b6","text":"#ffffff"}},"position":"bottom","content":{"href":"https://www.superneconsulting.co.uk/cookies","message":"This website uses cookies to ensure you get the best experience.  ","button":"OK I understand!"}})});</script>
-
 </head>
 
 <body id="top-of-page" class="{{ layout.format }}">
 	{% include _navigation.html %}
-
 
 <!--
   <div class="panel radius" style="background-image: url('/images/racer2.jpg'); background-repeat: no-repeat; background-attachment: fixed;  background-size: 100% 100%; ">
@@ -133,7 +130,7 @@ body {
     <div class="column-first left" style="background-color:none;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/roadmap.jpg" alt="">
     </div> <!-- end column left-->
-    <div class="column-first right" style="background: rgba(246, 223, 187, 0.8);  text-align: "center">
+    <div class="column-first right" style="background: transparent; text-align: center">
       <h1>FIX YOUR MARKETING</h1>
       <p><h2>
   		And Increase<br><br>Your Sales & Profits<br><br>In Less Than 45 Minutes As Our<br><br> Software Pinpoints Your 'Opportunity Areas' &<br><br>Shows You Exactly What To Improve</h2>
