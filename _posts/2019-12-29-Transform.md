@@ -20,7 +20,7 @@ categories:
   - Marketing Elements
 
 callforaction2:
-          url: /FormulaOnePager/
+          url: /formula-landing/
           text: Download 1-Page FORMULA Description Here
           style: alert
 permalink: /transform/          

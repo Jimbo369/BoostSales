@@ -6,8 +6,8 @@
 # Black background "#262930"
 layout: frontpage
 header:
-  image-fullwidth:
-  background-color:  "#3B23CB"
+  image-fullwidth: "/images/blueback.webp"
+  background-color:  "#64C0E9"
   title: Own a Small Business?<br>Boost Sales & Grow Profits..<br>...GUARANTEED!!
   subtitle:
   description: <h2>...learn the secrets right here! </h2>
@@ -38,11 +38,11 @@ widget2:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://www.superne-coaching.com/roadmap-james-austin
+  url: /roadmap-landing/
   text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
   style: alert
 callforaction2:
-    url: https://www.superne-coaching.com/roadmap-james-austin
+    url: /roadmap-landing/
     text: Remember to get your FREE Business ROADMAP!
     style: alert
 

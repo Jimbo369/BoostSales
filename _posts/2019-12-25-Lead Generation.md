@@ -19,8 +19,8 @@ categories:
   - The Formula
   - Marketing Elements
 callforaction2:
-    url: /contact/
-    text: Learn How to Boost Lead Generation - Contact us Now!
+    url: /formula-landing/
+    text: Get a copy of the FORMULA for FREE!
     style: success
 permalink: /lead-generation/
 ---

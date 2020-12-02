@@ -5,7 +5,7 @@ subheadline:
 title:  ""
 header:
     title: Contact Us
-    image_fullwidth: "gallery-example-5.jpg"
+    image_fullwidth: "gallery-example-5.webp"
     background-color: "#EFC94C;"
 teaser: "It's easy - just call, email or fill in the form below"
 permalink: /contact/
