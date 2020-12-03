@@ -13,27 +13,30 @@ callforaction2:
       style: alert  
 ---
 
-## What's in a name? What does Superne Mean?
-<h3>
-'Superne' - like many words in the English language - is a Latin word that means 'to get  higher or better'.  Basically, to <em><b> improve </b></em>.  
+### What's in a name? What does Superne Mean?
+
+<p><strong>'Superne'</strong> - like many words in the English language - is a Latin word that means 'to get  higher or better'.  Basically, to <em><b> improve </b></em>.  </p>
 <br><br>
-It is our intent to take clients from where they are now up to the their next level - and indeed on from there!  No matter where you are now, there is always an opportunity to make some improvement.  Our team are experienced and understanding!Speak to us
-and find out how we can help.
-</h3>
+<p>It is our intent to take clients from where they are now up to the their next level - and indeed on from there!  No matter where you are now, there is always an opportunity to make some improvement.  Our team are experienced and understanding!</p>
+<br>
+
+#### Speak to us and find out how we can help.
+
 
 ## Service, Reliability and Commitment
-<h3>Whatever your industry, whatever your business, there will always be areas that can be improved simply because the world in which you operate is continually changing. Our cognizant business consulting services are designed to guide and support you through these changes.
+
+<p>Whatever your industry, whatever your business, there will always be areas that can be improved simply because the world in which you operate is continually changing. Our cognizant business consulting services are designed to guide and support you through these changes.</p>
 <br>
-But how do you know we will do what we say we’ll do?  It is a common question and our answer is to do what most consultants will not do....
-<br></h3>
-<ul><h3>
+<p>But how do you know we will do what we say we’ll do?  It is a common question and our answer is to do what most consultants will not do....</p>
+<br>
+<ul><h4>
   <li>Offer a Money Back Guarantee for our work</li>
   <li>Combine our day rate with a success fee</li>
   <li>Provide Total Peace of Mind</li>
-</h3></ul><br>
+</h4></ul><br>
 
-<h3>Find out more about our unique <a href= "{{ site.url }}/guarantee/" > Guarantee </a>
-</h3>
+<p>Find out more about our unique <a href= "{{ site.url }}/guarantee/" > <strong>Guarantee</strong> </a>
+</p>
 
 
 

@@ -41,10 +41,10 @@ callforaction:
   url: 'https://www.superne-coaching.com/roadmap-james-austin'
   text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
   style: alert
-callforaction2:
-    url: 'https://www.superne-coaching.com/roadmap-james-austin'
-    text: Remember to get your FREE Business ROADMAP!
-    style: alert
+#callforaction2:
+#    url: 'https://www.superne-coaching.com/roadmap-james-austin'
+#    text: Remember to get your FREE Business ROADMAP!
+#    style: alert
 
 permalink: /index.html
 #
