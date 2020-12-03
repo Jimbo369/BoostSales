@@ -7,7 +7,7 @@
 layout: frontpage
 header:
   image-fullwidth: "/images/blueback.webp"
-  background-color:  "#64C0E9"
+  background-color:  ""
   title: Own a Small Business?<br>Boost Sales & Grow Profits..<br>...GUARANTEED!!
   subtitle:
   description: <h2>...learn the secrets right here! </h2>

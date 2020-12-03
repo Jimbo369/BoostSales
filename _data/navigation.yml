@@ -37,18 +37,19 @@
   url: 'https://www.superne-coaching.com/roadmap-james-austin'
   side: left
 
-- title: About
-  url: "/info/"
-  side: left
 
 - title: Articles
   url: "/Article/Collection/"
   side: left
 
-#- title: "Search"
-#  url: "/search/"
-#  side: right
-
 - title: "Contact"
   url: "/contact/"
+  side: right
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: About
+  url: "/info/"
   side: right

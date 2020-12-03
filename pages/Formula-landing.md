@@ -125,7 +125,7 @@ body {
 <body >
 	{% include _navigation.html %}
 
-<div class="panel radius" style="background-image: url('/images/onepagebackground.png'); background-repeat: fullpage; background-attachment: fixed;  background-size: 100% 100%; ">
+<div class="panel radius" style="background-image: url('/images/onepagebackground.png'); background-repeat: cover; background-attachment: fixed;  background-size: 100% 100%; ">
     <div class="row"> <!--display two columns-->
         <div class="column-first left" style="background-color:none;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/onepageblur.png" alt="">
