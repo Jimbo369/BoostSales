@@ -2,13 +2,14 @@
 layout: compress
 permalink: /formula-landing/
 callforaction:
-  url: 
+  url:
   text:
   style:     
 callforaction2:
     url:
     text:
-    style:     
+    style:   
+do_not_compress: true      
 ---
 
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
