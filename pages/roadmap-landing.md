@@ -8,7 +8,8 @@ callforaction:
 callforaction2:
     url:
     text: YES! I want this!
-    style: warning    
+    style: warning  
+do_not_compress: true      
 ---
 
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
