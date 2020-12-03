@@ -144,12 +144,12 @@ do_not_compress: true
   <!-- modal 1 -->
   <a href="#m1-o"  class="link-1" id="m1-c" style="float:right">YES!!! I want the ROADMAP ASAP</a>
     <div class="modal-container" id="m1-o" style="--m-background: transparent;">
-        <div class="modal">
-  <!--        <h2 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h2>
+        <div class="modal"><!--start modal class-->
+        <h2 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h2>
             include contactroadmapzoho.html
           <h4 align=center >This service is free of charge. We respect your privacy and will never share your details</h4>
           <a href="#m1-c" class="link-2"></a>
--->        </div> <!--/modal class-->
+       </div> <!--/modal class-->
     </div> <!-- /modal 1 -->
 </div> <!--end row for CTA-->
 </div><!-- end background image-->
@@ -180,7 +180,7 @@ do_not_compress: true
 
 <div class="row" > <!--display two columns-->
   <div class="column-first left" style="background-color:none;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/formula-vert.jpg" alt="">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Formula-vert.jpg" alt="">
   </div> <!-- end column left-->
   <div class="column-first right" style="background: rgba(141, 209, 247, 0.8);  text-align: left">
     <h2><span style="color:black; align:center; font-weight:bold">Introducing The FORMULA</span></h2><br><ul>
