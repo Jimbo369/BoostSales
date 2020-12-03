@@ -125,10 +125,10 @@ body {
 <body >
 	{% include _navigation.html %}
 
-<div class="panel radius" style="background-image: url('/images/onepagebackground.png'); background-repeat: repeat; background-attachment: fixed;  background-size: 100% 100%; ">
+<div class="panel radius" style="background-image: url('/images/onepagebackground.png'); background-repeat: fullpage; background-attachment: fixed;  background-size: 100% 100%; ">
     <div class="row"> <!--display two columns-->
         <div class="column-first left" style="background-color:none;">
-        <!-- Empty left column-->
+        <img src="{{ site.url }}{{ site.baseurl }}/images/onepageblur.png" alt="">
         </div> <!-- end column left-->
         <div class="column-first right" style="background: rgba(255, 255, 255, 0.6);  text-align: center">
           <h2 color="white">1-Page BUSINESS GROWTH FORMULA</h2><br>
