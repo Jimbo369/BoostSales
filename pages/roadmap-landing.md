@@ -119,9 +119,9 @@ do_not_compress: true
 
 <body id="top-of-page" class="{{ layout.format }}">
 	{% include _navigation.html %}
-<!--
-  <div class="panel radius" style="background-image: url('/images/racer2.jpg'); background-repeat: no-repeat; background-attachment: fixed;  background-size: 100% 100%; ">
--->
+
+  <div class="panel radius" style="background-image: url('/images/racer2.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+
   <div class="row"> <!--display two columns-->
     <div class="column-first left" style="background-color:none;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/roadmap.jpg" alt="">
@@ -152,7 +152,7 @@ do_not_compress: true
 -->        </div> <!--/modal class-->
     </div> <!-- /modal 1 -->
 </div> <!--end row for CTA-->
-<!--</div><!-- end background image-->
+</div><!-- end background image-->
 
 <!--  <div class="row" style="background-color: rgba(0, 0, 255, 1); background-attachment: fixed;  background-size: 100% 100%;" ><!--Plain background-->
 
@@ -163,7 +163,7 @@ do_not_compress: true
     </div> <!-- end left3 column-->
     <div class="column-three" style="background: rgba(0, 0, 255, 1);   text-align: center; color: white;">
       <h1><span style="color:white; font-weight:bold">PINPOINT ACCURACY</span></h1>
-      <h5><span style="color:white; font-weight:bold">After answering a series of 'yes/no' type questions our software will accurately analyse your sales and marketing</span></h5>
+      <h5><span style="color:white; font-weight:bold">After answering a series of 'yes/no' type questions our software will accurately analyse your sales and marketing </span></h5>
     </div><!-- end center3 column-->
     <div class="column-three" style="background: rgba(0, 0, 255, 1);   text-align: center; color: white;">
       <h1><span style="color:white; font-weight:bold">STEP-BY-STEP</span></h1><br><br>
