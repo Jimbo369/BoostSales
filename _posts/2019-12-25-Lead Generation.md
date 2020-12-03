@@ -1,13 +1,13 @@
 ---
 layout: page-fullwidth
 title: "Lead Generation"
-subheadline: "The L "
+subheadline: "The 'L' "
 meta_teaser: "The methodology of lead generation."
 teaser: "<em>Lead Generation</em> is not just important to a business, it is critical.  Leads are the lifeblood of a company because they develop into sales."
 breadcrumb: false
 header:
     image: gallery-example-1.jpg
-    background-color: "#262930"
+    background-color: "#64C0E9"
     caption:
     caption_url:
 image:

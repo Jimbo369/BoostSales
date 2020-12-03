@@ -13,7 +13,7 @@ teaser: ""
 #    - header
 header:
     title: CAST IRON RISK FREE GUARANTEE!
-    background-color: "#EFC94C;"
+    background-color: "#64C0E9;"
 #    pattern: pattern_concrete.jpg
     image_fullwidth: gallery-example-7.jpg
     caption:

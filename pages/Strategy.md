@@ -17,7 +17,7 @@ header:
     title: Strategy Development
     background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
-    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+    image_fullwidth: unsplash_brooklyn-bridge_header.webp
     caption:
     caption_url: https://unsplash.com/
 ---

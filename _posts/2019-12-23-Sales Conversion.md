@@ -1,13 +1,13 @@
 ---
 layout: page-fullwidth
 title: "Conversion of Sales Leads"
-subheadline: "The C "
+subheadline: "The 'C' "
 meta_teaser: "This is where the Sales Person's Skills come in to Play"
 teaser: "This is where the skills typically associated with the Sales Person enter into the equation."
 breadcrumb: false
 header:
     image: header_unsplash_2-970x.jpg
-    background-color: "#262930"
+    background-color: "#64C0E9"
     caption:
     caption_url:
 image:

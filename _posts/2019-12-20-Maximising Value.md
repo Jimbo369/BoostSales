@@ -1,13 +1,13 @@
 ---
 layout: page-fullwidth
 title: "Maximising Value"
-subheadline: "The M "
+subheadline: "The 'M' "
 meta_teaser: "Look after the customers and they will look after you"
 teaser: "<em>Maximising value</em> is about ensuring that you can develop more revenue from an existing customer - but not to their detriment."
 breadcrumb: false
 header:
     image: gallery-example-3.jpg
-    background-color: "#262930"
+    background-color: "#64C0E9"
     caption:
     caption_url:
 image:

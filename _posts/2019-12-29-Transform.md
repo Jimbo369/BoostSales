@@ -1,12 +1,12 @@
 ---
 layout: page-fullwidth
 title: "Transform Existing Marketing"
-subheadline: "The T "
+subheadline: "The 'T' "
 meta_teaser: "Get results quickly by transforming what you do now."
 teaser: "<em>Transforming</em> existing marketing activities is about making the current strategies as effective as possible."
 header:
     image: gallery-example-2.jpg
-    background-color: "#262930"
+    background-color: "#64C0E9"
     caption:
     caption_url:
 image:

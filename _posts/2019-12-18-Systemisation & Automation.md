@@ -1,13 +1,13 @@
 ---
 layout: page-fullwidth
 title: "Systemise & Automate"
-subheadline: "The S "
+subheadline: "The 'S' "
 meta_teaser: "Make the marketing actions repeatable by Systemising."
 teaser: "<em>Systemisation</em> of the processes makes it easier for anyone to repeat the actions and so the results. <em>Automation</em> removes the repetitive tasks and frees time to focus on more intricate parts of the process."
 breadcrumb: false
 header:
     image: gallery-example-1.jpg
-    background-color: "#262930"
+    background-color: "#64C0E9"
     caption:
     caption_url:
 image:
