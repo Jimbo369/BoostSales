@@ -1,6 +1,6 @@
 ---
 layout: compress
-permalink: /formula-landing/
+permalink: /Formula-landing/
 callforaction:
   url:
   text:
