@@ -10,7 +10,7 @@
 }
 
 html {
-/*  font-size: 62.5%; */
+  font-size: 95%; 
 }
 
 body {
@@ -86,7 +86,7 @@ button::-moz-focus-inner {
 
 /* modal */
 .modal-container {
-  position: fixed;
+  position: float;
   top: 0;
   left: 0;
   z-index: 0;
@@ -95,7 +95,7 @@ button::-moz-focus-inner {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
+  width: 90%;
   height: 100%;
 
   /* --m-background is set as inline style */
