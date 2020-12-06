@@ -5,7 +5,7 @@
 layout: redirect
 sitemap: false
 permalink: /roadmap/
-redirect_to:  https://www.superne-coaching.com/roadmap-james-austin
+redirect_to:  /roadmap-landing/
 #
 # Idea and Code by: http://codingtips.kanishkkunal.in/about/
 ---

@@ -160,6 +160,13 @@ html,body{
 }
 </style>
 <div class='zcwf_title' style='max-width: 600px;color: black;'></div>
+<div class='zcwf_row'>
+  <div class='zcwf_col_lab'></div>
+  <div class='zcwf_col_fld'>
+    <input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'>
+    <input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'>
+  </div>
+</div>
 <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:16px; font-family: Verdana;'><label for='First_Name'>First Name</label></div>
 <div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'><div class='zcwf_col_help'></div></div></div>
 <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:16px; font-family: Verdana;'><label for='Last_Name'>Last Name<span style='color:red;'>*</span></label></div>
@@ -186,10 +193,23 @@ html,body{
 <div class='zcwf_col_fld'><input type='text' id='Company' name='Company' maxlength='100'> <div class='zcwf_col_help'></div></div></div>
 <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:16px; font-family: Verdana;'><label for='Email'>Email<span style='color:red;'>*</span></label></div>
 <div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' maxlength='100'> <div class='zcwf_col_help'></div></div></div>
-<div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:16px; font-family: Verdana;'><label for='Phone'>Phone</label></div>
-<div class='zcwf_col_fld'><input type='text' id='Phone' name='Phone' maxlength='30' value=''> <div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div>
-<div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'><input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'></div></div>
+<div class='zcwf_row'>
+  <div class='zcwf_col_lab' style='font-size:16px; font-family: Verdana;'><label for='Phone'>Phone</label></div>
+  <div class='zcwf_col_fld'><input type='text' id='Phone' name='Phone' maxlength='30' value=''> <div class='zcwf_col_help'></div></div>
+</div>
+<div class='zcwf_row'>
+  <div class='zcwf_col_lab'></div>
+  <div class='zcwf_col_fld'>
+    <input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'>
+    <input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'>
+  </div>
+</div>
 	<script>
+    var mndFileds=new Array('Last Name','Email');
+    var fldLangVal=new Array('Last Name','Email');
+    var name='';
+    var email='';
+
 	function validateEmail320819000000266556()
 	{
 		var form = document.forms['WebToLeads320819000000266556'];

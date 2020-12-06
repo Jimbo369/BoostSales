@@ -38,11 +38,11 @@ widget2:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: 'https://www.superne-coaching.com/roadmap-james-austin'
+  url: '/roadmap-landing/'
   text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
   style: alert
 #callforaction2:
-#    url: 'https://www.superne-coaching.com/roadmap-james-austin'
+#    url: '/roadmap-landing/'
 #    text: Remember to get your FREE Business ROADMAP!
 #    style: alert
 
