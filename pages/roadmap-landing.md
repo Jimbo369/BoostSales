@@ -48,7 +48,7 @@ do_not_compress: true
     * call for action-button
     {% endcomment %}
     <!-- modal 1 -->
-    <a href="#m1-o"  class="link-1" id="m1-c" style="float:right">YES!!! I want the ROADMAP ASAP</a>
+    <a href="#m1-o"  class="link-1" id="m1-c" align=center style="float:right">YES!!! I want the ROADMAP ASAP</a>
       <div class="modal-container" id="m1-o" style="--m-background: rgba(0, 243, 255, 0.2);">
           <div class="modal" style="--m-shadow: 10 10 10rem 0.4"><!--start modal class-->
             <h3 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h3>
@@ -179,7 +179,7 @@ do_not_compress: true
 {% if page.callforaction %}
 
 <div class="box"><!-- modal 3 -->
-  <a href="#m3-o" class="link-1" id="m3-c">YES! I want the ROADMAP</a>
+  <a href="#m3-o" align=center class="link-1" id="m3-c">YES! I want the ROADMAP</a>
     <div class="modal-container" id="m3-o" style="--m-background: transparent;">
         <div class="modal" style="--m-shadow: 0 0 10rem 0">
           <h3 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h3>
