@@ -32,10 +32,13 @@ do_not_compress: true
         <img src="{{ site.url }}{{ site.baseurl }}/images/roadmap.jpg" alt="">
     </div> <!-- end column left-->
     <div class="column-first right" style="background: #F6DF01; text-align: center">
-      <h1>FIX YOUR MARKETING</h1>
-      <p><h2>
-  		And Increase<br><br>Your Sales & Profits<br><br>In Less Than 45 Minutes As Our<br><br> Software Pinpoints Your 'Opportunity Areas' &<br><br>Shows You Exactly What To Improve</h2>
-  		<h4>Simply click on the button below to get started</h4></p>
+      <h2>Sales Accelerator Roadmap</h2><br>
+      <h1 style= "color: blue" ><strong>FREE TODAY</strong></h1>
+      <h2>FIX YOUR MARKETING<br>
+
+  		And Increase<br>Your Sales & Profits<br><br>In Less Than 45 Minutes As Our<br>Software Pinpoints Your 'Opportunity Areas' &<br>
+      Shows You Exactly What To Improve</h2>
+  		<p><h4>Simply click on the button below to get started</h4></p>
   		<h4>THIS IS A FREE SERVICE. NO CREDIT CARD REQUIRED</h4><br>
       <h4>We respect your privacy and will never share your details</h4>
     </div> <!-- end column right-->
