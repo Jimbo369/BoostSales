@@ -17,113 +17,18 @@ do_not_compress: true
 	{% include _head.html %}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel= "stylesheet" href="/assets/css/modalstyle.css">
-  <style>
-  * { box-sizing: border-box;
-  }
-  .buttcent{
-    margin: 0;
-    position: absolute;
-
-    left: 75%;
-    -ms-transform: translate(50%, 50%);
-    transform: translate(-100%, -100%);
-  }
-  @media screen and (max-width: 900px) {
-    .buttcent {
-      width: 100%;
-    }}
-  <!--/* Create two unequal columns that floats next to each other */ -->
-  .column-first {
-    float: left;
-    padding: 10px;
-  }
-
-  .left {
-    width: 40%;
-  }
-
-  .right {
-    width: 60%;
-  }
-
-  .column-second {
-    float: left;
-    padding: 10px;
-  }
-  .left2 {
-    width: 60%;
-  }
-
-  .right2 {
-    width: 40%;
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  <!--/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ -->
-  @media screen and (max-width: 600px) {
-    .column-first {
-      width: 100%;
-    }
-  @media screen and (max-width: 600px) {
-    .column-second {
-      width: 100%;
-    }
-  }
-
-  body {
-    font-size: 100%
-  }
-  </style>
-  <style>
-  * {
-    box-sizing: border-box;
-  }
-  /* Create single floating column */
-  .column {
-    float: center;
-    width: 100%;
-    padding: 10px;
-    }
-  @media screen and (max-width: 900px) {
-      .column {
-        width: 100%;
-      }
-    }
-  /* Create three equal columns that floats next to each other */
-  .column-three {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-  }
-
-
-  @media screen and (max-width: 600px) {
-    .column-three {
-      width: 100%;
-    }
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  </style>
 
   <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#edfdfa","text":"#000000","border":"#5ec2b6"},"button":{"background":"#5ec2b6","text":"#ffffff"}},"position":"bottom","content":{"href":"https://www.superneconsulting.co.uk/cookies","message":"This website uses cookies to ensure you get the best experience.  ","button":"OK I understand!"}})});</script>
 </head>
 
 <body id="top-of-page" class="{{ layout.format }}">
 	{% include _navigation.html %}
+<div class="panel" style="background-color: rgba(0, 243, 255, .1);"> <!--background color-->
 
-  <div class="panel radius" style="background-image: url('/images/racer2.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+<div class="panel radius" style="background-image: url('/images/racer2.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
 
   <div class="row"> <!--display two columns-->
-    <div class="column-first left" style="background-color:none;">
+    <div class="column-first left" style="background-color:none;"> <!--display left column--->
         <img src="{{ site.url }}{{ site.baseurl }}/images/roadmap.jpg" alt="">
     </div> <!-- end column left-->
     <div class="column-first right" style="background: #F6DF01; text-align: center">
@@ -135,45 +40,54 @@ do_not_compress: true
       <h4>We respect your privacy and will never share your details</h4>
     </div> <!-- end column right-->
   </div> <!-- end display two columns-->
-<div class="row">  
-  {% comment %}
-  *
-  * call for action-button
-  *
-  {% endcomment %}
-  <!-- modal 1 -->
-  <a href="#m1-o"  class="link-1" id="m1-c" style="float:right">YES!!! I want the ROADMAP ASAP</a>
-    <div class="modal-container" id="m1-o" style="--m-background: transparent;">
-        <div class="modal"><!--start modal class-->
-        <h2 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h2>
-          {%  include contactroadmapzoho.html %}
-          <h4 align=center >This service is free of charge. We respect your privacy and will never share your details</h4>
-          <a href="#m1-c" class="link-2"></a>
-       </div> <!--/modal class-->
-    </div> <!-- /modal 1 -->
-</div> <!--end row for CTA-->
+  <div class="row">  <!--Row containing CTA-->
+    {% comment %}
+    * call for action-button
+    {% endcomment %}
+    <!-- modal 1 -->
+    <a href="#m1-o"  class="link-1" id="m1-c" style="float:right">YES!!! I want the ROADMAP ASAP</a>
+      <div class="modal-container" id="m1-o" style="--m-background: rgba(0, 243, 255, 0.2);">
+          <div class="modal" style="--m-shadow: 10 10 10rem 0.4"><!--start modal class-->
+            <h3 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h3>
+            {% include contactroadmapzoho.html %}
+            <h4 align=center >This service is free of charge. We respect your privacy and will never share your details</h4>
+            <a href="#m1-c" class="link-2"></a>
+         </div> <!--/modal class-->
+      </div> <!-- /modal 1 -->
+  </div> <!--end row for CTA-->
 </div><!-- end background image-->
 
-<div class="row" style="background-color: rgba(0, 0, 255, 1); background-attachment: fixed; " ><!--Plain background-->
-
+<div class="row"  ><!--Plain light blue background-->
+<!--<table style="width:100%" >
+  <tr>
+    <th><h1><span style="color:black; font-weight:bold">FREE SERVICE</span></h1></th>
+    <th><h1><span style="color:black; font-weight:bold">PINPOINT ACCURACY<br></span></h1></th>
+    <th><h1><span style="color:black; font-weight:bold">STEP-BY-STEP</span></h1></th>
+  </tr>
+  <tr>
+    <td><h5><span style="color:black; font-weight:bold">The Sales Accelerator ROADMAP is normally priced at £495. For a limited time this leading-edge service is <strong>FREE</strong></span></h5></td>
+    <td><h5><span style="color:black; font-weight:bold">After answering a series of 'yes/no' type questions our software will accurately analyse your sales and marketing</span></h5></td>
+    <td><h5><span style="color:black; font-weight:bold">Our software will then give you a step-by-step ROADMAP on what to improve/add in sequential order</span></h5></td>
+  </tr> </table> -->
   <div class="row"> <!--display three columns-->
-    <div class="column-three" style="background: rgba(0, 0, 255, 1);   text-align: center; color: white;">
-      <h1><span style="color:white; font-weight:bold">FREE SERVICE</span></h1><br><br>
-      <h5><span style="color:white; font-weight:bold">The Sales Accelerator ROADMAP is normally priced at £495. For a limited time this leading-edge service is <strong>FREE</strong></span></h5>
+    <div class="column-three" style="background: none;   text-align: center;">
+      <h1><span style="color:black; font-weight:bold">FREE SERVICE</span></h1><br><br>
+      <h5><span style="color:black; font-weight:bold">The Sales Accelerator ROADMAP is normally priced at £495. For a limited time this leading-edge service is <strong>FREE</strong></span></h5>
     </div> <!-- end left3 column-->
-    <div class="column-three" style="background: rgba(0, 0, 255, 1);   text-align: center; color: white;">
-      <h1><span style="color:white; font-weight:bold">PINPOINT ACCURACY</span></h1>
-      <h5><span style="color:white; font-weight:bold">After answering a series of 'yes/no' type questions our software will accurately analyse your sales and marketing </span></h5>
+    <div class="column-three" style="background: none;   text-align: center;">
+      <h1><span style="color:black; font-weight:bold">PINPOINT ACCURACY<br></span></h1>
+      <h5><span style="color:black; font-weight:bold">After answering a series of 'yes/no' type questions our software will accurately analyse your sales and marketing</span></h5>
     </div><!-- end center3 column-->
-    <div class="column-three" style="background: rgba(0, 0, 255, 1);   text-align: center; color: white;">
-      <h1><span style="color:white; font-weight:bold">STEP-BY-STEP</span></h1><br><br>
-      <h5><span style="color:white; font-weight:bold">Our software will then give you a step-by-step ROADMAP on what to improve/add in sequential order    </span></h5>
+    <div class="column-three" style="background: none;   text-align: center; ">
+      <h1><span style="color:black; font-weight:bold">STEP-BY-STEP</span></h1><br><br>
+      <h5><span style="color:black; font-weight:bold">Our software will then give you a step-by-step ROADMAP on what to improve/add in sequential order</span></h5>
    </div><!-- end right3 column -->
   </div><!-- end display three columns -->
-<!--end Plain background-->
+</div><!--end Plain background-->
+<hr>
 <div class="row">
-    <div class="column" style="background: rgba(255, 255, 255, 1);   text-align: center; color: black;">
-      <h1>The ROADMAP Uses 'The FORMULA' Our Proven Business-Building System To Fix Your Marketing, Pinpoint All The Gaps & Provide A Step-By-Step Solution To Grow Quickly</h1>
+    <div class="column" style="background: none;   text-align: center; color: black;">
+      <h2>The ROADMAP Uses 'The FORMULA' Our Proven Business-Building System To Fix Your Marketing, Pinpoint All The Gaps & Provide A Step-By-Step Solution To Grow Quickly</h2>
       <h2>Over 26,000 Businesses Benefiting Right Now</h2><hr>
     </div>
 </div> <!--end of row-->
@@ -185,20 +99,20 @@ do_not_compress: true
   <div class="column-first right" style="background: rgba(141, 209, 247, 0.8);  text-align: left">
     <h2><span style="color:black; align:center; font-weight:bold">Introducing The FORMULA</span></h2><br><ul>
 
-    <li><h6><strong>PROVEN:</strong>Growing a business isn't rocket science... but it IS a science. The FORMULA is our proven time-tested and robust system for quickly growing any business.</h6></li>
+    <li><h5><strong>PROVEN:</strong>Growing a business isn't rocket science... but it IS a science. The FORMULA is our proven time-tested and robust system for quickly growing any business.</h5></li>
 
-    <li><h6><strong>5 KEY AREAS:</strong> The FORMULA works because it focuses on the 5 primary parts of every business’s sales and marketing. Other than acquisition of other businesses this is the only way to grow a business. Concentrate on these 5 key areas and your business will flourish in any economic climate.</h6></li>
+    <li><h5><strong>5 KEY AREAS:</strong> The FORMULA works because it focuses on the 5 primary parts of every business’s sales and marketing. Other than acquisition of other businesses this is the only way to grow a business. Concentrate on these 5 key areas and your business will flourish in any economic climate.</h5></li>
 
-    <li><h6><strong>GAP ANALYSIS:</strong> The Sales Accelerator ROADMAP focuses on each of the 5 key areas of The FORMULA and pinpoints any weaknesses, gaps and areas which will give you the quickest results.</h6></li>
+    <li><h5><strong>GAP ANALYSIS:</strong> The Sales Accelerator ROADMAP focuses on each of the 5 key areas of The FORMULA and pinpoints any weaknesses, gaps and areas which will give you the quickest results.</h5></li>
 
-    <li><h6><strong>SPECIAL ALGORITHM:</strong> Because the software uses a special algorithm developed from tens of thousands of businesses in hundreds of different industries, it will identify the areas where you'll see the quickest and biggest returns and provide you with a step-by-step ROADMAP to getting those results.</h6></li>
+    <li><h5><strong>SPECIAL ALGORITHM:</strong> Because the software uses a special algorithm developed from tens of thousands of businesses in hundreds of different industries, it will identify the areas where you'll see the quickest and biggest returns and provide you with a step-by-step ROADMAP to getting those results.</h5></li>
 
-    <li><h6><strong>QUICK RESULTS:</strong> Most of the solutions identified by our software are quick and easy to put in place. You should start to see results within just a couple of days!</h6></li>
+    <li><h5><strong>QUICK RESULTS:</strong> Most of the solutions identified by our software are quick and easy to put in place. You should start to see results within just a couple of days!</h5></li>
 
-    <li><h6><strong>LOW-COST TO IMPLEMENT:</strong> Better still, the solutions are low-cost – often even zero cost - to implement. With the Sales Accelerator ROADMAP you can grow your business without breaking the bank and still achieve outstanding results even on a shoestring budget if necessary.</h6></li></ul>
+    <li><h5><strong>LOW-COST TO IMPLEMENT:</strong> Better still, the solutions are low-cost – often even zero cost - to implement. With the Sales Accelerator ROADMAP you can grow your business without breaking the bank and still achieve outstanding results even on a shoestring budget if necessary.</h5></li></ul>
   </div> <!-- end column right-->
 </div> <!-- end display two columns-->
-
+<div class="spec-box" >
     {% comment %}
     *
     * call for action-button
@@ -211,20 +125,20 @@ do_not_compress: true
     {% endif %}
     {% if page.callforaction %}
     <div class="box">
-      <a href="#m3-o" class="link-1" id="m3-c">YES! I want the ROADMAP</a>
-        <div class="modal-container" id="m3-o" style="--m-background: transparent;">
-          <div class="modal" style="--m-shadow: 0 0 10rem 0">
-            <h2 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h2>
+      <a href="#m3-o" align=center class="link-1" id="m3-c">YES! I want the ROADMAP</a>
+        <div class="modal-container" id="m3-o" style="--m-background: rgba(0, 243, 255, 0.2);">
+          <div class="modal" style="--m-shadow: 10 10 10rem 0.4">
+            <h3 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h3>
             {% include contactroadmapzoho.html %}
             <a href="#m3-c" class="link-2"></a>
           </div> <!--end modal text-->
         </div> <!--end modal container--><!-- modal 3 box -->
     </div> <!-- /modal 3 box -->
     {% endif %}
-
+</div><!--end of row-->
 <hr>
 <div class="row">
-    <div class="column" style="background: rgba(255, 255, 255, 1);  text-align: center; color: black; ">
+    <div class="column" style="background: none;  text-align: center; color: black; ">
       <h1>How To Get Started <br>Significant Improvements Within 48 Hours...</h1>
     </div> <!--end column-->
 </div> <!--end of row-->
@@ -238,7 +152,7 @@ do_not_compress: true
     <li><h5><strong>STEP #4:</strong> We'll then login to our software and go through the ROADMAP together. There are a series of 'yes/no' type questions that I'll take you through.</h5></li>
     <li><h5><strong>STEP #5:</strong> Once the ROADMAP questions have been completed, our system analyses all the data and uses its special algorithm to create your results.</h5></li>
       <figure>
-        <img src="/images/roadmap-result.png/ " class="responsive">
+        <img src="/images/roadmap-result.png/" class="responsive" alt="">
         <figcaption>Partial results from the ROADMAP.</figcaption>
       </figure>
     <li><h5><strong>STEP #6:</strong> Our software then produces the step-by-step ROADMAP to show you exactly what you need to fix your marketing and then what to implement first, second and third to quickly grow your business!</h5></li></ul>
@@ -265,16 +179,16 @@ do_not_compress: true
   <a href="#m3-o" class="link-1" id="m3-c">YES! I want the ROADMAP</a>
     <div class="modal-container" id="m3-o" style="--m-background: transparent;">
         <div class="modal" style="--m-shadow: 0 0 10rem 0">
-          <h2 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h2>
+          <h3 align=center class="modal__title">Please Enter Your Details Here for the Free Roadmap Meeting</h3>
           {% include contactroadmapzoho.html %}
           <a href="#m3-c" class="link-2"></a>
         </div> <!--end modal content-->
     </div> <!--end modal container-->
 </div><!-- /modal 3 -->
 {% endif %}
-
+</div> <!--end background color-->
 </body>
-
+<div class="panel" style="background-color: none;"> <!--background color-->
 {% include _footer.html %}
 <!-- Include LinkedIn script -->
 <script type="text/javascript">
@@ -291,5 +205,5 @@ do_not_compress: true
 <noscript>
 	<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1107945&fmt=gif" />
 </noscript>
-
+</div>
 </html>

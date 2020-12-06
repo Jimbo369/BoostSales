@@ -20,7 +20,7 @@ body {
   --focus: hsl(210, 90%, 50%);
   --border-color: hsla(0, 0%, 100%, .2);
   --global-background: hsl(0, 0%, 20%);
-  --background:  hsl(195, 88%, 58%, .9);
+  --background:  hsl(200, 10%, 70%, .3);
   /*<!-- linear-gradient(to right, hsl(195, 88%, 58%), hsl(195, 88%, 58%));-->*/
 
   --shadow-1: hsla(236, 50%, 50%, .3);
@@ -45,20 +45,20 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-.spec-box{
-  display: float;
-  height: 100px;
-  padding: 75px;
-}
 
 /* box */
 .box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 0vh;
-  padding: 0 ;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 .box:not(:first-child) {
@@ -93,10 +93,10 @@ button::-moz-focus-inner {
 
 /* modal */
 .modal-container {
-  position: fixed;
+  position: float;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 0;
 
   display: none;
   justify-content: center;
@@ -236,112 +236,3 @@ when users will click/enter button(link) browser will add a #id in a url and whe
   color: hsla(0, 0%, 1000%, .6);
   font-size: 1.6rem;
 }
-
-<style>
-* { box-sizing: border-box;
-}
-.buttcent{
-  margin: 0;
-  position: absolute;
-
-  left: 75%;
-  -ms-transform: translate(50%, 50%);
-  transform: translate(-100%, -100%);
-}
-@media screen and (max-width: 900px) {
-  .buttcent {
-    width: 100%;
-  }}
-<!--/* Create two unequal columns that floats next to each other */ -->
-.column-first {
-  float: left;
-  padding: 10px;
-}
-
-.left {
-  width: 40%;
-}
-
-.right {
-  width: 60%;
-}
-
-.column-second {
-  float: left;
-  padding: 10px;
-}
-.left2 {
-  width: 60%;
-}
-
-.right2 {
-  width: 40%;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-<!--/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ -->
-@media screen and (max-width: 600px) {
-  .column-first {
-    width: 100%;
-  }
-@media screen and (max-width: 600px) {
-  .column-second {
-    width: 100%;
-  }
-}
-
-body {
-  font-size: 100%
-}
-</style>
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create single floating column */
-.column {
-  float: center;
-  width: 100%;
-  padding: 10px;
-  }
-@media screen and (max-width: 900px) {
-    .column {
-      width: 100%;
-    }
-  }
-/* Create 2 row table */
-table {
-width: 100%;
-}
-table, th, tr, td {
-border: 2px;
-background-color: none; <!--rgba(0, 243, 255, 0.2); -->
-text-align: center;
-}
-
-}
-/*Create three equal columns that floats next to each other*/
-  .column-three {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    background-color: rgba(0, 243, 255, 0.2);
-  }
-
-
-  @media screen and (max-width: 600px) {
-    .column-three {
-      width: 100%;
-    }
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-</style>
