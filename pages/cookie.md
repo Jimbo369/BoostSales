@@ -4,7 +4,7 @@ lang-ref: Cookie-policy-page
 title:
 permalink: /cookie/
 header:
-    title: Praximol Ltd - Trading as Superne Consulting
+    title: Superne Consulting
     subtitle: Last Updated 24 November 2020
     background-color: "#596377"
 ---
