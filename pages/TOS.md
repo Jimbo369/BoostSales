@@ -4,8 +4,8 @@ lang-ref: terms-of-service-page
 title: Terms of Service
 permalink: /TOS/
 header:
-    title: Superne Consulting
-    subtitle: Last Updated 24 November 2020
+    title: Praximol Ltd Trading as Superne Consulting
+    subtitle: Last Updated 04 January 2021
     background-color: "#596377"
 ---
 
@@ -111,4 +111,4 @@ TICKET HOLDERS MAY NOT SELL, OFFER FOR SALE, OFFER AT AUCTIONS, RESELL, DONATE, 
 
 You agree to provide accurate and complete information when you register with, and as you use, the Company Services and you agree to update your account information to keep it accurate and complete. You agree that the Company may store and use the information you provide for use in maintaining and billing fees to your Account.
 <hr>
-Copyright 2020+  Superne Consulting - All Rights Reserved
+Copyright 2021 Praximol Ltd - All Rights Reserved

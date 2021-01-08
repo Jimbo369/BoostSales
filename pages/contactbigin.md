@@ -1,15 +1,14 @@
 ---
 layout: page
 sidebar: right
-offer: false
 subheadline:
-title:  "Contact"
+title:  ""
 header:
     title: Contact Us
     image_fullwidth: "gallery-example-5.webp"
     background-color: "#EFC94C;"
 teaser: "It's easy - just call, email or fill in the form below"
-permalink: /contact/
+permalink: /contactbigin/
 breadcrumb: false
 do_not_compress: true
 
@@ -22,4 +21,6 @@ redirect-page: http://superneconsulting.co.uk/
 
 
 
-{% include contactzoho.html %}
+{% include contact-bigin.html %}
+
+{: .t60 }

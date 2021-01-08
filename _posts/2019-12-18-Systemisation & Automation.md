@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+post-list: true
 title: "Systemise & Automate"
 subheadline: "The 'S' "
 meta_teaser: "Make the marketing actions repeatable by Systemising."
@@ -7,7 +8,7 @@ teaser: "<em>Systemisation</em> of the processes makes it easier for anyone to r
 breadcrumb: false
 header:
     image: gallery-example-1.jpg
-    background-color: "#64C0E9"
+    background-color: "#6AB4D9"
     caption:
     caption_url:
 image:
@@ -54,12 +55,6 @@ One of the useful consequences of performing this action is that you will be abl
 
  {: .t60 }
  <hr>
-  <!-- Display list of blog posts - marketing components -->
- <div class="medium-10 columns">
-         <p><strong>{{ site.data.language.more_articles }}</strong></p>
-         {% include list-posts entries='5' offset='0' %}
- </div><!-- /.medium-10.columns -->
-
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

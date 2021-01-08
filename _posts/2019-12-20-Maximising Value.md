@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+post-list: true
 title: "Maximising Value"
 subheadline: "The 'M' "
 meta_teaser: "Look after the customers and they will look after you"
@@ -7,7 +8,7 @@ teaser: "<em>Maximising value</em> is about ensuring that you can develop more r
 breadcrumb: false
 header:
     image: gallery-example-3.jpg
-    background-color: "#64C0E9"
+    background-color: "#6AB4D9"
     caption:
     caption_url:
 image:
@@ -65,11 +66,7 @@ Assuming this is the case then in this section, we focus on increasing value acr
 
  {: .t60 }
  <hr>
-  <!-- Display list of blog posts - marketing components -->
- <div class="medium-10 columns">
-         <p><strong>{{ site.data.language.more_articles }}</strong></p>
-         {% include list-posts entries='5' offset='0' %}
- </div><!-- /.medium-10.columns -->
+
 
 
 

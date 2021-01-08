@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+post-list: true
 title: "Conversion of Sales Leads"
 subheadline: "The 'C' "
 meta_teaser: "This is where the Sales Person's Skills come in to Play"
@@ -7,7 +8,7 @@ teaser: "This is where the skills typically associated with the Sales Person ent
 breadcrumb: false
 header:
     image: header_unsplash_2-970x.jpg
-    background-color: "#64C0E9"
+    background-color: "#6AB4D9"
     caption:
     caption_url:
 image:
@@ -67,11 +68,7 @@ This is equivalent to growing from an annual turnover of £150,000 to £345,000 
 
 {: .t60 }
 <hr>
- <!-- Display list of blog posts - marketing components -->
-<div class="medium-10 columns">
-        <p><strong>{{ site.data.language.more_articles }}</strong></p>
-        {% include list-posts entries='5' offset='0' %}
-</div><!-- /.medium-10.columns -->
+ 
 
 
 

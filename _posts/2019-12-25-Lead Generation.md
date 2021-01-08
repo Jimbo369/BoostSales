@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+post-list: true
 title: "Lead Generation"
 subheadline: "The 'L' "
 meta_teaser: "The methodology of lead generation."
@@ -7,7 +8,7 @@ teaser: "<em>Lead Generation</em> is not just important to a business, it is cri
 breadcrumb: false
 header:
     image: gallery-example-1.jpg
-    background-color: "#64C0E9"
+    background-color: "#6AB4D9"
     caption:
     caption_url:
 image:
@@ -77,11 +78,6 @@ Our programme will not just show you what they are but will guide you through us
 
 
  <hr>
-  <!-- Display list of blog posts - marketing components -->
- <div class="medium-10 columns">
-         <p><strong>{{ site.data.language.more_articles }}</strong></p>
-         {% include list-posts entries='5' offset='0' %}
- </div><!-- /.medium-10.columns -->
 
 
 </div><!-- /.medium-8.columns -->

@@ -2,10 +2,10 @@
 layout: page-fullwidth
 lang-ref: Cookie-policy-page
 title:
-permalink: /cookie/
+permalink: /cookie-policy/
 header:
-    title: Superne Consulting
-    subtitle: Last Updated 24 November 2020
+    title: Praximol Ltd trading as Superne Consulting
+    subtitle: Last Updated 04 January 2021
     background-color: "#596377"
 ---
 
@@ -34,4 +34,3 @@ header:
 <p>You acknowledge that you have read this Policy and agree to all its terms and conditions. By accessing and using the Website and Services you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to access or use the Website and Services.</p>
 <h2>Contacting us</h2>
 <p>If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may send an email to &#101;&#110;&#113;&#64;su&#112;er&#110;e&#99;&#111;n&#115;&#117;&#108;&#116;i&#110;&#103;&#46;&#99;&#111;&#46;&#117;k</p>
-<p>This document was last updated on November 24, 2020</p>

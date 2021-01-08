@@ -1,12 +1,13 @@
 ---
 layout: page-fullwidth
+post-list: true
 title: "Transform Existing Marketing"
 subheadline: "The 'T' "
 meta_teaser: "Get results quickly by transforming what you do now."
 teaser: "<em>Transforming</em> existing marketing activities is about making the current strategies as effective as possible."
 header:
     image: gallery-example-2.jpg
-    background-color: "#64C0E9"
+    background-color: "#6AB4D9"
     caption:
     caption_url:
 image:
@@ -22,7 +23,7 @@ categories:
 callforaction2:
           url: /formula-landing/
           text: Download 1-Page FORMULA Description Here
-          style: alert
+          style: success
 permalink: /transform/          
 ---
 
@@ -75,25 +76,7 @@ The Core Elements consist of 5 Marketing components and 4 Sales components.  In 
 <h3>The Next Step in the FORMULA is L for <a href='/lead-generation/'>Lead Generation </a></h3>
  {: .t60 }
  <hr>
-  <!-- Display list of blog posts - marketing components -->
- <div class="medium-10 columns">
-         <p><strong>{{ site.data.language.more_articles }}</strong></p>
-         {% include list-posts entries='5' offset='0' %}
- </div><!-- /.medium-10.columns -->
 
-
-
-
-  [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
-  [2]: http://phlow.de/
-  [3]: https://thecoreasset.com/team
-  [4]: https://www.google.com/fonts/specimen/Lato
-  [5]: https://www.google.com/fonts/specimen/Volkhov
-  [6]: http://www.latofonts.com/
-  [7]: http://modularscale.com/
-  [8]: #
-  [9]: #
-  [10]: #
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

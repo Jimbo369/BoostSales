@@ -25,9 +25,9 @@ author: James
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 # https://jimbo369.github.io/Consulting/
-url: 'https://jimbo369.github.io/Consulting'
+url: 'https://www.superneconsulting.co.uk'
 baseurl: ''
-roadmapurl: 'https://www.superne-coaching.com/roadmap-james-austin'
+roadmapurl: 'https://www.superneconsulting.co.uk/roadmap-landing'
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: ''
@@ -38,11 +38,11 @@ improve_content: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg) - change for production
 #
-urlimg: 'https://jimbo369.github.io/Consulting/images/'
+urlimg: 'https://www.SuperneConsulting.co.uk/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "currentlogo.png"
 
 # Plugins
 plugins:

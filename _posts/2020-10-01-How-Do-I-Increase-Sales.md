@@ -1,5 +1,7 @@
 ---
 layout: page
+offer: false
+post-list: true
 title: "How Do I Increase My Sales?-1/5"
 subheadline: "The question asked by all SME owners"
 meta_teaser: "There is a scientific way to increase sales. Find out here..."
@@ -8,7 +10,7 @@ breadcrumb: false
 
 header:
     image: "header_homepage_13.jpg"
-    background-color: "#262930"
+    background-color: "#6AB4D9"
     caption:
     caption_url:
 sidebar: right
@@ -26,11 +28,11 @@ categories:
 callforaction:
           url: '/roadmap-landing/'
           text: Arrange a ROADMAP Meeting Here!
-          style: alert    
+          style: success    
 callforaction2:
           url: /roadmap-landing/
           text: Arrange a ROADMAP Meeting Here!
-          style: alert
+          style: success
 ---
 
 <p>Increasing the number of sales coming into your business is a good idea if you want to grow! It is a good idea if you want your business to survive – standing still is the same as going backwards.</p>
@@ -47,8 +49,3 @@ callforaction2:
 
 
 <hr>
-  <!-- Display list of blog posts - marketing components -->
-<div class="medium-10 columns">
-    <p><strong>{{ site.data.language.more_articles }}</strong></p>
-    {% include list-posts entries='8' offset='0' %}
-</div><!-- /.medium-10.columns -->

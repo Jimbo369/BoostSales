@@ -1,27 +1,14 @@
 ---
 layout: default
-permalink: /formula-download/
+permalink: /smm-thanks/
 offer: true
 
 do_not_compress: true      
 ---
-<div class="container-fluid" style="background-color:cornflowerblue" >
-  <div class="row" style= "text-align:center">
-    <h1><strong>Thank You For Completing the form - Your Download is ready</strong></h1><br>
-    	<a href="/Downloads/One+Page+FORMULA+-+James+Austin.pdf" download="OnePageFORMULA-JA.pdf" class="btn-lg btn-success" role="button">Click Download the Single Page Description</a><br>
-      <h2>Check Inside Your DOWNLOAD Folder!!</h2>
-  </div><!--end of row-->
-
+<div class="container-fluid" style="background-color:cornflowerblue; " >
   <div class="jumbotron">
-      <h2 style="text-align:center; margin:0px -10px"> If you have any questions....</h2>
-      <h4>The 1-page Business Growth Formula that you can download using the button above is a complete overview of what you need to do to be successful in your quest to grow your business. You can get more detail about the Formula <a href= "/Formula/"><u>here</u></a>.
-      Once you have read it you may have more questions or you may be asking yourself...</h4>
-      <h4 style="text-align:center"><b>"How do I do it? What should I do first?"</b></h4><br>
-      <h4 style="text-align:left">If so, ...that probably means you are at least ready to take the next step....and we are <em>ready to help you start your journey - and continue to help you every step of the way</em>.  The first thing to do is to evaluate the current position of your business in its growth cycle and build a schedule of activities that will get you and the business to where you want it to be.</h4>
-      <h4 style="text-align:center">We call this a <b>ROADMAP</b>.</h4>
-      <h4 style="text-align:left">The <b>ROADMAP</b> is a scientific evaluation of the performance of your sales and marketing operation.  It takes about 45 minutes to complete and when complete, you will hold a document showing the areas of greatest weakness, what you need to do to correct it and when you should do it.</h4>
-      <h3> For a LIMITED time you can get a ROADMAP to improve your business absolutely <b><em>FREE!</em></b>
-      scroll down for more information....</h3>
+    <h2 style="text-align:center; margin: 0px -10px"><strong>Thank You for Requesting the Scientific Marketing Makeover!</strong></h2><br>
+    <h2 style="text-align:center; color:blue;">We will send you an email with details on providing us with your chosen marketing strategy for analysis. But while it is on its way, would you like to further accelerate the growth of your business for <em><b>FREE?</b></em><br> If so please read on...</h2>
   </div><!--end Jumbotron-->
 </div><!--end container-->
 
@@ -124,8 +111,8 @@ do_not_compress: true
       <li><h5><strong>LOW-COST TO IMPLEMENT:</strong> Better still, the solutions are low-cost – often even zero cost - to implement. With the Sales Accelerator ROADMAP you can grow your business without breaking the bank and still achieve outstanding results even on a shoestring budget if necessary.</h5></li></ul>
 
         <div class="row" style= "text-align:center; margin:20px 0px"><!-- Modal2 for Roadmap-->
-          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#rmModal1" data-backdrop="static">Yes! I Want The ROADMAP!</button>
-          <div class="modal fade" id="rmModal1" role="dialog">  <!-- Modal -->
+          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#rmModal2" data-backdrop="static">Yes! I Want The ROADMAP!</button>
+          <div class="modal fade" id="rmModal2" role="dialog">  <!-- Modal -->
             <div class="modal-dialog"><!--dialog-->
                 <div class="modal-content"><!-- Modal content-->
                   <div class="modal-header">
@@ -160,9 +147,9 @@ do_not_compress: true
       <li><h5><strong>STEP #1:</strong> To take advantage of the Sales Accelerator ROADMAP free offer, simply click on the button below (this is a free service, no credit card details are required)...</h5></li><br>
       <div class="row" style= "text-align:center">
           <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#rmModal1" data-backdrop="static">Yes! I Want The ROADMAP!</button>
+        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#rmModal3" data-backdrop="static">Yes! I Want The ROADMAP!</button>
         <!-- Modal -->
-        <div class="modal fade" id="rmModal1" role="dialog">
+        <div class="modal fade" id="rmModal3" role="dialog">
           <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
@@ -203,9 +190,9 @@ do_not_compress: true
 </div> <!-- end 2 col container-->
 <div class="container center">
     <div class="row" style= "text-align:center; margin:40px 0px"> <!-- Trigger the modal with a button -->
-      <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#rmModal1" data-backdrop="static">Yes! I Want The ROADMAP!</button>
+      <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#rmModal4" data-backdrop="static">Yes! I Want The ROADMAP!</button>
       <!-- Modal -->
-      <div class="modal fade" id="rmModal1" role="dialog">
+      <div class="modal fade" id="rmModal4" role="dialog">
         <div class="modal-dialog"><!-- Modal dialog-->
           <div class="modal-content"><!-- modal content-->
             <div class="modal-header"><!-- modal header-->

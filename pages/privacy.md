@@ -4,8 +4,8 @@ lang-ref: privacy-policy-page
 title: Privacy Policy
 permalink: /privacy/
 header:
-    title:  Superne Consulting
-    subtitle: Last Updated 21 May, 2019
+    title:  Praximol Ltd trading as Superne Consulting
+    subtitle: Last Updated 04 January 2021
     background-color: "#596377"
 ---
 
@@ -20,7 +20,7 @@ header:
 
 1.4 We treat your data as 'legitimate interest' which means we will communicate with you via email, social media and direct mail (if relevant) with information that will help you build a better business or help you with personal development. For details on unsubscribing see below.
 
-1.5 In this policy, "we", "us" and "our" refer to ‘Superne Consulting'. For more information about us, see Section 12.
+1.5 In this policy, "we", "us" and "our" refer to ‘Praximol Ltd'. For more information about us, see Section 12.
 
 2. How we use your personal data
 
@@ -173,7 +173,7 @@ header:
 
 12. Our details
 
-12.1 This website is owned and operated by Superne Consulting.
+12.1 This website is owned and operated by Praximol Ltd.
 
 12.2 Our registered office is at 20-22 Wenlock Road, London N1 7GU.
 
@@ -191,4 +191,4 @@ header:
 
 13.1 Our data protection officer's contact details are as above.
 <hr>
-Copyright 2020+  Superne Consulting - All Rights Reserved
+Copyright 2021  Praximol Ltd - All Rights Reserved

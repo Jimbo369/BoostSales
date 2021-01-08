@@ -5,9 +5,10 @@
 # this work, you have to use › layout: frontpage
 # Black background "#262930"
 layout: frontpage
+offer: false
 header:
   image-fullwidth: "/images/blueback.webp"
-  background-color:  ""
+  background-color:  "#6AB4D9"
   title: Own a Small Business?<br>Boost Sales & Grow Profits..<br>...GUARANTEED!!
   subtitle:
   description: <h2>...learn the secrets right here! </h2>
@@ -37,15 +38,18 @@ widget2:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: '/roadmap-landing/'
-  text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
-  style: alert
+#callforaction:
+#  url: '/roadmap-landing/'
+#  text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
+#  style: success
 #callforaction2:
 #    url: '/roadmap-landing/'
 #    text: Remember to get your FREE Business ROADMAP!
 #    style: alert
-
+callforaction2:
+  url: '/roadmap-landing/'
+  text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
+  style: success
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight

@@ -1,86 +1,46 @@
-<!--<div class="small-6 medium-3 large-3 large-offset-1 columns">
-  <a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" align=left alt="{{ site.title }} – {{ site.slogan }}">
-  </a>
-</div> -->
 
-<div id="up-to-top" class="row">
-  <div class="small-12 columns" style="text-align: right;">
-    <a class="iconfont" href="#top-of-page">&#xf108;</a>
-  </div><!-- /.small-12.columns -->
-</div><!-- /.row -->
+<footer>
+  <div class="container-fluid" style="background-color:lightgray; margin:0px 0px">
+  <!--set top of page link -->
+    <div class="col-sm-12" style="text-align: right; margin:0px 10px"-->
+      <a class="iconfont" href="#top-of-page"> <img src="/images/uparrow.png/"></a>
+    </div> <!--end of top of page link-->
 
-
-<footer id="footer-content" class="bg-grau">
-  <div id="footer">
-    <div class="row">
-<!--      <div class="small-4"> Displaying logo in footer grey area
-        <img class="b30" src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="">
-      </div> -->
-      <div class="medium-6 large-5 columns">
-
-        <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-
-        <p class="shadow-black">
-          {{ site.description }}
-          <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
-        </p>
-      </div><!-- /.large-6.columns -->
-
-
-      <div class="small-6 medium-3 large-3 large-offset-1 columns">
-        {% for service_item in site.data.services %}
-          {% if forloop.first == true %}
-            <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
-          {% endif %}
-        {% endfor %}
-
-          <ul class="no-bullet shadow-black">
+    <div class="col-sm-3" style="text-align: left; padding:0px 30px"><!--First Column/3-->
           {% for service_item in site.data.services %}
-            {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-              <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
-              </li>
+            {% if forloop.first == true %}
+              <h5 class="black">{{ service_item.menu_name }}</h5>
+            {% endif %}
           {% endfor %}
-          </ul>
-      </div><!-- /.large-4.columns -->
 
+            <ul class="no-bullet black">
+            {% for service_item in site.data.services %}
+              {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
+                <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
+                  <u><a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a></u>
+                </li>
+            {% endfor %}
+            </ul>
+    </div><!-- End First Column -->
 
-      <div class="small-6 medium-3 large-3 columns">
-        {% for network_item in site.data.network %}
-          {% if forloop.first == true %}
-            <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
-          {% endif %}
-        {% endfor %}
+        <div class="col-sm-7" style="text-align: left; padding:0px 30px"><!--Second Column/3-->
 
-        <ul class="no-bullet shadow-black">
-        {% for network_item in site.data.network %}
-          {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-            <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
-              <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
-            </li>
-        {% endfor %}
-        </ul>
-      </div><!-- /.large-3.columns -->
-    </div><!-- /.row -->
+          <h5>{{ site.data.language.info_website }}</h5>
+          <p>
+            {{ site.description }}
+            <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+          </p>
+        </div><!-- /second column -->
 
-  </div><!-- /#footer -->
-
-<!--
-  <div id="subfooter">
-    <nav class="row">
-      <section id="subfooter-left" class="small-12 medium-6 columns credits">
-        {{ site.credits }}
-      </section>
-
-      <section id="subfooter-right" class="small-12 medium-6 columns">
-        <ul class="inline-list social-icons">
-        {% for social_item in site.data.socialmedia %}
-          <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-        {% endfor %}
-        </ul>
-      </section>
-    </nav>
-  </div><!-- /#subfooter -->
+        <div class="col-sm-2"style="text-align: left; padding:0px 30px" ><!--Third Column/3-->
+          <h5 class="black">Contact</h5>
+          <a href="/contact/"> <img class="img-responsive align-right" src="/assets/img/logo.png" alt="logo"> </a>
+        </div> <!--end of third column-->
+  </div><!--end top of page container  -->
+  <div class="container-fluid bg-none">
+      <div class="col-sm-12" style="text-align:center ">
+        <!--Newsletter code in here -->
+      </div>
+  </div>
 
 </footer>

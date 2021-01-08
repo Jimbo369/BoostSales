@@ -367,8 +367,8 @@ mark {
        url('../fonts/iconfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-.iconfont       { font-family: iconfont; }
-.iconfont-48    { font-size: 48px; }
+*.iconfont       { font-family: iconfont; }
+*.iconfont-48    { font-size: 48px; }
 
 
 [data-icon]:before { content: attr(data-icon); }
@@ -430,7 +430,7 @@ mark {
 .icon-xing:before,
 .icon-youtube:before {
   display: inline-block;
-font-family: "iconfont";
+*font-family: "iconfont";
 font-style: normal;
 font-weight: normal;
 font-variant: normal;

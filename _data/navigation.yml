@@ -46,9 +46,9 @@
   url: "/contact/"
   side: right
 
-- title: "Search"
-  url: "/search/"
-  side: right
+#- title: "Search"
+#  url: "/search/"
+#  side: right
 
 - title: About
   url: "/info/"

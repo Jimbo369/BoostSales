@@ -10,12 +10,16 @@
   class: "services-newsletter"
   title: "email"
 
-#- name: "Images by Unsplash"
-#  url: "http://unsplash.com/"
-#  class: "rss-link"
-#  title: "Images by Unsplash"
+- name: "Twitter: "
+  url: http://twitter.com/JimAustin61
+  class: icon-twitter
+  title: "Twitter Feed"
 
-#- name: "Using Backstretch by Scott Robbin"
+- name: "Skype:"
 #  url: "http://srobbin.com/jquery-plugins/backstretch/"
 #  class: "sitemap-link"
 #  title: "Using Backstretch by Scott Robbin"
+- name: LinkedIn
+  url: https://www.linkedin.com/company/14041798/
+  class: icon-linkedin
+  title: "LinkedIn Page"
