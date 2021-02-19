@@ -171,11 +171,11 @@ do_not_compress: true
       <li><h5><strong>STEP #5:</strong> Once the ROADMAP questions have been completed, our system analyses all the data and uses its special algorithm to create your results.</h5></li><br>
         <figure>
           <div class="row" style= "text-align:center">
-          <img src="/images/roadmap-result.png/" class="responsive" alt="">
+            <img src="/images/roadmap-result.png" class="responsive" alt="">
           <figcaption>Partial results from the ROADMAP.</figcaption>
           </div>
-          </figure>
-          <li><h5><strong>STEP #6:</strong> Our software then produces the step-by-step ROADMAP to show you exactly what you need to fix your marketing and then what to implement first, second and third to quickly grow your business!</h5></li></ul>
+        </figure>
+        <li><h5><strong>STEP #6:</strong> Our software then produces the step-by-step ROADMAP to show you exactly what you need to fix your marketing and then what to implement first, second and third to quickly grow your business!</h5></li></ul>
     </div> <!-- end column left2-->
     <div class="col-sm-5" style="background-color:none; margin:0px 0px">
       <div class="well">
