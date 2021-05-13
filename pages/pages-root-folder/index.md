@@ -13,16 +13,16 @@ header:
   subtitle:
   description: <h2>...learn the secrets right here! </h2>
 
-widget1:
-  title: "Guaranteed Sales"
-  url: '/improvements/'
-  image: widget-1-302x182.jpg
-  text: 'Learn how marketing actually works and use the simple rules to refine your sales and marketing    capability to increase leads and convert them to more sales - <em>Guaranteed!!</em> '
-widget2:
-  title: "Top Level Coaching"
-  url: '/Interim/'
-  image: unsplash_eagle.jpg
-  text: 'We have well qualified and very experienced business coaches available to work alongside you to guide and help in the development of your business.'
+#widget1:
+#  title: "Guaranteed Sales"
+#  url: '/improvements/'
+#  image: widget-1-302x182.jpg
+#  text: 'Learn how marketing actually works and use the simple rules to refine your sales and marketing    capability to increase leads and convert them to more sales - <em>Guaranteed!!</em> '
+#widget2:
+#  title: "Top Level Coaching"
+#  url: '/Interim/'
+#  image: unsplash_eagle.jpg
+#  text: 'We have well qualified and very experienced business coaches available to work alongside you to guide and help in the development of your business.'
 #widget3:
 #  title: "Download Theme"
 #  url: 'https://github.com/Phlow/feeling-responsive'
@@ -59,11 +59,9 @@ homepage: true
 ---
 
 
-<!--
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
--->

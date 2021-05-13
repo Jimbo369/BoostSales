@@ -2,31 +2,7 @@
   url: "/"
   side: left
 
-- title: Sales Improvement
-  url: "/improvements/"
-  side: left
-  dropdown:
-  - title: The Formula
-    url: "/formula/"
-  - title: Transform Existing Marketing
-    url: "/transform/"
-  - title: Lead Generation
-    url: "/lead-generation/"
-  - title: Conversion to Sales
-    url: "/conversion/"
-  - title: Maximising Value
-    url: "/maximising-value/"
-  - title: Systemise and Automate
-    url: "/systemise/"
 
-- title: "Consultancy Services"
-  url: "/"
-  side: left
-  dropdown:
-  - title: "Strategy Development"
-    url: "/Strategy/"
-  - title: "Interim Management"
-    url: "/Interim/"
 
 - title: "Guarantee"
   url: "/guarantee/"
@@ -38,9 +14,6 @@
   side: left
 
 
-- title: Articles
-  url: "/Article/Collection/"
-  side: left
 
 - title: "Contact"
   url: "/contact/"
