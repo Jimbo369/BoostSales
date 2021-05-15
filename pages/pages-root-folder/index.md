@@ -44,7 +44,7 @@ homepage: true
             <h4 class="modal-title">Please Enter Your Details - Get Immediate Access</h4>
           </div> <!--Close Modal header-->
           <div class="modal-body">
-            {% include payment-master.html %}
+<!--            include payment-master.html -->
           </div> <!--Close modal body-->
           <div class="modal-footer">
             <a class="text-align:left">We respect your privacy and will never share your details   </a>
