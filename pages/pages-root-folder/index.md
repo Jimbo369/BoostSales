@@ -41,10 +41,10 @@ homepage: true
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Please Enter Your Details - Get Immediate Access</h4>
+            <h4 class="modal-title">Coming Soon - Enter Details to be notified</h4>
           </div> <!--Close Modal header-->
           <div class="modal-body">
-<!--            include payment here -->
+            {% include contactmasterclasszoho.html %}
           </div> <!--Close modal body-->
           <div class="modal-footer">
             <a class="text-align:left">We respect your privacy and will never share your details   </a>
