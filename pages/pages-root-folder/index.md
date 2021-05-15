@@ -35,9 +35,9 @@ homepage: true
 
 <div class ="container-fluid" style= text-align:center >
   <div class="row"> <!--Call to callforaction-->
-    <button type="button" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#rmModal1" data-backdrop="static">Reserve Your Place Now!</button>
+    <button type="button" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#rmModalx" data-backdrop="static">Reserve Your Place Now!</button>
     <!-- Modal -->
-    <div class="modal fade" id="rmModal1" role="dialog">
+    <div class="modal fade" id="rmModalx" role="dialog">
       <div class="modal-dialog">
         <!-- Modal content-->
         <div class="modal-content">
@@ -46,7 +46,7 @@ homepage: true
             <h4 class="modal-title">Coming Soon - Enter Details to be notified</h4>
           </div> <!--Close Modal header-->
           <div class="modal-body">
-            {% include contactmasterclasszoho.html %}
+            {% include contactonepagezoho.html %}
           </div> <!--Close modal body-->
           <div class="modal-footer">
             <a class="text-align:left">We respect your privacy and will never share your details   </a>
