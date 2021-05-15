@@ -24,132 +24,19 @@ layout: compress
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-	{% include _navigation.html %}
+<!--	 include _navigation.html -->
 	{% include _masthead.html %}
 
-	{% if page.offer == false %} <!--do not display background if this is offer page end div below has same if query-->
+ <!--do not display background if this is offer page end div below has same if query--
 		<div class="container-fluid" style="background-color: #6AB4D9; background-repeat: cover; background-attachment: fixed">
 
-	{% comment %}
-	*
-	* First check, if there is a call for action-button
-	*
-	{% endcomment %}
-	{% if page.callforaction.url contains 'http' %}
-	{% assign url = '' %}
-	{% else %}
 
-	{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-	{% endif %}
-	{% if page.callforaction %}
-
-  <div class="container-fluid" style="text-align:center; background-color:#6AB4D9">
-    <div class="row">
-       <div class="small-12 text-center columns">
-	            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
-	        </div><!-- /.small-12.columns -->
-	    </div><!-- /.row -->
-  </div>
-	{% endif %}
-
-	{{ content }}
-
-  {% if page.post-list %}
-  <div class="container-fluid" style="background-color:#9acce5; text-align: left">
-    <div class="row">
-     <!-- Display list of blog posts - marketing components -->
-      <div class="col-md-8">
-              <p><strong>{{ site.data.language.more_articles }}</strong></p>
-              {% include list-posts entries='10' offset='0' %}
-      </div><!-- /.medium-8.columns -->
-    </div><!--end row-->
-  </div><!--end container-->
-  {% endif %}
-
-	{% comment %}
-	*
-	* First check, if there is a second call for action-button
-	*
-	{% endcomment %}
-	{% if page.callforaction2.url contains 'http' %}
-	{% assign url = '' %}
-	{% else %}
-	{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-	{% endif %}
-	{% if page.callforaction2 %}   <!--#6AB4D9-->
-  <div class="container-fluid" style="background-color: #6AB4D9; background-repeat: cover; background-attachment: fixed">
-	    <div class="row">
-	        <div class="col-sm-12 text-center columns">
-	            <a class="button large radius {{ page.callforaction2.style }}" href="{{ url }}{{ page.callforaction2.url }}"{% if page.callforaction2.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction2.text }}</a>
-	        </div><!-- /.small-12.columns -->
-	    </div><!-- /.row -->
-  </div>
-	{% endif %}
-</div>
-{% else %}
-{% comment %}
-*
-* First check, if there is a call for action-button
-*
-{% endcomment %}
-{% if page.callforaction.url contains 'http' %}
-{% assign url = '' %}
-{% else %}
-
-{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-{% endif %}
-{% if page.callforaction %}
-
-  <div class="container-fluid" style="text-align:center; background-color:#6AB4D9">
-    <div class="row">
-				<div class="small-12 text-center columns">
-						<a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
-				</div><!-- /.small-12.columns -->
-	  </div><!-- /.row -->
-  </div><!--end container-->
-{% endif %}
+    </div -->
 
 {{ content }}
-
-{% if page.post-list %}
-<div class="container-fluid" style="background-color:#9acce5; text-align: left">
-  <div class="row">
-   <!-- Display list of blog posts - marketing components -->
-    <div class="col-md-8">
-            <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts entries='10' offset='0' %}
-    </div><!-- /.medium-8.columns -->
-  </div><!--end row-->
-</div><!--end container-->
-{% endif %}
-
-{% comment %}
-*
-* First check, if there is a second call for action-button
-*
-{% endcomment %}
-{% if page.callforaction2.url contains 'http' %}
-{% assign url = '' %}
-{% else %}
-{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-{% endif %}
-{% if page.callforaction2 %}
-		<div class="container-fluid" style="text-align:center; background-color:#6AB4D9">
-      <div class="row">
-				<div class="small-12 text-center columns">
-						<a class="button large radius {{ page.callforaction2.style }}" href="{{ url }}{{ page.callforaction2.url }}"{% if page.callforaction2.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction2.text }}</a>
-			  </div><!-- /.small-12.columns -->
-	 	  </div><!-- /.row -->
-    </div><!--end container-->
-{% endif %}
-
-
-	{% endif %}
 </body>
 
-	{% include _footer.html %}
 
-	{% include _footer_scripts.html %}
 
 
 </html>

@@ -29,7 +29,7 @@ homepage: true
 <div class="container" style="height:200px;width:100%; text-align:center; background-color: light-blue">
   <p><h1>How To Boost Sales and Grow Profits!<br><br>This Masterclass shows you how<br> ...GUARANTEED!!</h1></p>
 
-  <iframe src="/images/gallery-example-1.jpg" width="100%" height="100%" title="Masterclass Introduction">
+  <iframe src="/images/gallery-example-1.jpg" width="80%" height="300" title="Masterclass Introduction">
   </iframe>
 
   <div class="row"> <!--Call to callforaction-->
