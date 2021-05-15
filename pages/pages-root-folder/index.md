@@ -31,7 +31,9 @@ homepage: true
 
   <iframe src="/images/gallery-example-1.jpg" width="100%" height="100%" title="Masterclass Introduction">
   </iframe>
+</div> <!--end container-->
 
+<div class ="container-fluid" style= text-align:center >
   <div class="row"> <!--Call to callforaction-->
     <button type="button" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#rmModal1" data-backdrop="static">Reserve Your Place Now!</button>
     <!-- Modal -->
