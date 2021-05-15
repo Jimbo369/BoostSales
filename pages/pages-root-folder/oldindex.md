@@ -17,7 +17,7 @@ offer: false
 #  url: '/roadmap-landing/'
 #  text: Limited Offer - FREE Bespoke Roadmap for your Business Worth over £495! Click NOW!
 #  style: success
-permalink: /index.html
+permalink: /oldindex.html
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
