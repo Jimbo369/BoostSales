@@ -26,7 +26,7 @@ homepage: true
 ---
 
 
-<div class="container" style="height:200px;width:100%; text-align:center; background-color: light-blue">
+<div class="container" style="height:800px;width:100%; text-align:center; background-color: light-blue">
   <p><h1>How To Boost Sales and Grow Profits!<br><br>This Masterclass shows you how<br> ...GUARANTEED!!</h1></p>
 
   <iframe src="/images/gallery-example-1.jpg" width="100%" height="100%" title="Masterclass Introduction">
@@ -44,7 +44,7 @@ homepage: true
             <h4 class="modal-title">Please Enter Your Details - Get Immediate Access</h4>
           </div> <!--Close Modal header-->
           <div class="modal-body">
-<!--            include payment-master.html -->
+<!--            include payment here -->
           </div> <!--Close modal body-->
           <div class="modal-footer">
             <a class="text-align:left">We respect your privacy and will never share your details   </a>
