@@ -26,5 +26,5 @@ homepage: true
 ---
 
 <head>
-    <meta http-equiv="refresh" content="0; url='https://www.superneconsulting.co.uk/roadmap-landing.html'" />
+    <meta http-equiv="refresh" content="0; url='https://boost-my-sales.com/roadmap-landing/'" />
   </head>
